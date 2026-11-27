@@ -41,7 +41,7 @@ One engineer who covers the whole path, from interface and API to the production
 ## Brand Commitments
 
 - Name: Anas Al-Jboor. Monogram "AA" in a yellow circle.
-- Title, used everywhere: "Freelance web developer and DevOps engineer" (Anas, 2026-11-27).
+- Title, used everywhere: "Software engineer and DevOps engineer" (Anas, 2026-11-27).
 - Voice: first person, plain, specific, no hype.
 
 ## Evidence on Hand

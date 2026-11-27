@@ -32,7 +32,7 @@ The daily ritual (from the skill), scaled to one person with a full-time job, ab
 |---|---|
 | 1 | Merge the PR. Verify the domain in Google Search Console and Bing Webmaster Tools; submit `sitemap.xml`; request indexing of `/`. |
 | 2 | Google Business Profile as a service-area business in Amman (no address shown). Category: "Website designer" plus "Software company". Link to the site. |
-| 3 | LinkedIn: add the site as a Featured link and in the contact info; change the headline to "Freelance Web Developer & DevOps Engineer", matching the site. |
+| 3 | LinkedIn: add the site as a Featured link and in the contact info; change the headline to "Software Engineer & DevOps Engineer", matching the site. |
 | 4 | GitHub: profile README with one line and a link to the site; add the site URL to the profile. |
 | 5 | Search "web developer Jordan" and "web developer Amman" in an incognito window. Note the top 10 and what they have that this page lacks. |
 | 6 | Clutch.co profile (free) with services and the site link. |
