@@ -1,12 +1,14 @@
 # Anas Al-Jboor
 
-> Freelance web and DevOps developer based in Amman, Jordan. Builds websites, web apps and cloud setups for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic, English, German. Also open to full-time full-stack and DevOps roles.
+> Software engineer and DevOps engineer based in Amman, Jordan. Builds websites, web apps, mobile apps and cloud setups, and hosts and manages CRMs for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic, English, German. Also open to full-time full-stack and DevOps roles.
 
 ## Services (fixed quote after a free call; no public price list)
 
 - Business website: design and build, mobile first, contact form, Google Search Console, sitemap and schema.org set up. Typically 2 to 4 weeks.
 - Web app or MVP: frontend, FastAPI backend, PostgreSQL, sign-in and roles, CI/CD deployment. Typically 6 to 12 weeks.
+- Mobile app (Android and iOS): one Kotlin codebase with Kotlin Multiplatform and Compose Multiplatform, Firebase or a FastAPI backend, prepared for Google Play and the App Store. Typically 4 to 8 weeks.
 - DevOps and cloud setup: CI/CD (GitHub Actions, GitLab CI, Azure DevOps), Docker, Kubernetes, Helm, Terraform, Ansible, TLS, SSO, logs and dashboards. Typically 1 to 4 weeks.
+- CRM hosting and management: a self-hosted CRM on the client's own server in Docker, with domain, TLS, single sign-on, daily backups, updates and monitoring. Timeline agreed after a call.
 - Technical SEO and AI search fix: crawling, indexing, rendering, structured data, Core Web Vitals, fixed in code. About 1 week.
 
 ## Experience

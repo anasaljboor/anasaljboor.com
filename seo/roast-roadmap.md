@@ -6,7 +6,7 @@ Checks run against the live site from a browser on 2026-11-27: `/` 200, `/robots
 
 | # | Tier | Issue | Revenue impact | Fix | Owner | Status |
 |---|---|---|---|---|---|---|
-| 1 | REVENUE | Title, H1 and description targeted "Full-Stack & DevOps Engineer", a job title people search when hiring, not when buying | Clients searching "web developer Amman" or "DevOps consultant Jordan" never see the page | Title, H1, description and OG aligned on "Web & DevOps Developer in Amman, Jordan" | agent | shipped in PR |
+| 1 | REVENUE | Title, H1 and description targeted "Full-Stack & DevOps Engineer", a job title people search when hiring, not when buying | Clients searching "web developer Amman" or "DevOps consultant Jordan" never see the page | Title, H1, description and OG aligned on "Software Engineer & DevOps Engineer" (Amman, Jordan in H1 and description) | agent | shipped in PR |
 | 2 | REVENUE | No services, no process, contact said "open to roles" | Client visitors had no offer to evaluate and no reason to write | Four service blocks with scope and typical time, a four-step process, FAQ | agent | shipped in PR |
 | 3 | REVENUE | Only contact path was mailto and LinkedIn | Visitors on phones without a mail app drop off | Contact form (Formspree, falls back to mailto until the form ID is set) | agent + Anas | shipped, form ID pending |
 | 4 | REVENUE | JSON-LD described only a Person | Google and AI assistants could not tell the site sells services | `ProfessionalService` with offer catalog and service area, `WebSite`, `FAQPage` | agent | shipped in PR |
@@ -20,5 +20,5 @@ Checks run against the live site from a browser on 2026-11-27: `/` 200, `/robots
 
 ## Fluff (ignore until rows above ship)
 
-- OG image still says "Full-Stack & DevOps Engineer"; regenerate it with the new positioning.
+- OG image still says "Full-Stack & DevOps Engineer"; regenerate it as "Software Engineer & DevOps Engineer".
 - Custom 404 page added in this PR (it was a plain-text Vercel 404).
