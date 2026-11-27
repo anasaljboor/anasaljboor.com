@@ -8,7 +8,7 @@
 - Web app or MVP: frontend, FastAPI backend, PostgreSQL, sign-in and roles, CI/CD deployment. Typically 6 to 12 weeks.
 - Mobile app (Android and iOS): one Kotlin codebase with Kotlin Multiplatform and Compose Multiplatform, Firebase or a FastAPI backend, prepared for Google Play and the App Store. Typically 4 to 8 weeks.
 - DevOps and cloud setup: CI/CD (GitHub Actions, GitLab CI, Azure DevOps), Docker, Kubernetes, Helm, Terraform, Ansible, TLS, SSO, logs and dashboards. Typically 1 to 4 weeks.
-- CRM hosting and management: a self-hosted CRM on the client's own server in Docker, with domain, TLS, single sign-on, daily backups, updates and monitoring. Timeline agreed after a call.
+- CRM hosting and management: any open-source CRM (such as Odoo, SuiteCRM, EspoCRM or Twenty), self-hosted on the client's own server in Docker, with domain, TLS, single sign-on, daily backups, updates and monitoring. Usually 1-2 weeks.
 - Technical SEO and AI search fix: crawling, indexing, rendering, structured data, Core Web Vitals, fixed in code. About 1 week.
 
 ## Experience
