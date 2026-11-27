@@ -77,6 +77,7 @@
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web app or MVP", "description": "Frontend, FastAPI backend, PostgreSQL, sign-in and deployment for a first product version." } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mobile app (Android and iOS)", "description": "Android and iOS app from one Kotlin codebase with Kotlin Multiplatform and Compose Multiplatform, connected to Firebase or a FastAPI backend." } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "DevOps and cloud setup", "description": "CI/CD, Docker, Kubernetes, Terraform, TLS and monitoring for an existing product." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "CRM hosting and management", "description": "A self-hosted CRM on your own server with your domain, TLS, single sign-on, daily backups, updates and monitoring." } },
             { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Technical SEO and AI search fix", "description": "Crawler access, rendering, structured data and Core Web Vitals, fixed in code." } }
           ]
         }
@@ -121,6 +122,7 @@
       <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-4.1-1.1z"/><path d="M9 8.5c0 3.6 2.9 6.5 6.5 6.5l1-1.6-2-1-.9.9a4.2 4.2 0 01-2.4-2.4l.9-.9-1-2z"/></symbol>
       <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4M8.5 14.5h2M13.5 14.5h2"/></symbol>
       <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></symbol>
+      <symbol id="i-crm" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5M15.5 5.2a3.2 3.2 0 010 5.6M17.5 14.4c1.6.7 2.7 2.3 3 4.6"/></symbol>
       <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
     </defs>
   </svg>
@@ -204,7 +206,7 @@
     <section class="wrap doors" aria-label="Choose your path">
       <a class="door door-client" href="#services">
         <h2>I need something built</h2>
-        <p>See the five services, what each includes and how long it usually takes.</p>
+        <p>See the six services, what each includes and how long it usually takes.</p>
         <span class="door-go">See services <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
       </a>
       <a class="door" href="#about">
@@ -218,7 +220,7 @@
     <section class="wrap" id="services" aria-labelledby="services-title">
       <div class="section-head">
         <h2 id="services-title">What I can build for you</h2>
-        <p class="sub">Five fixed-scope services. Every project starts with a free call and a written proposal with one price.</p>
+        <p class="sub">Six fixed-scope services. Every project starts with a free call and a written proposal with one price.</p>
       </div>
 
       <div class="offers">
@@ -290,6 +292,24 @@
           </ul>
           <dl class="terms">
             <div><dt>Typical time</dt><dd>1 to 4 weeks</dd></div>
+            <div><dt>Price</dt><dd>Fixed quote after a call</dd></div>
+          </dl>
+        </article>
+
+        <article class="offer">
+          <div class="offer-head">
+            <svg class="offer-ic" aria-hidden="true"><use href="#i-crm"/></svg>
+            <h3>CRM hosting and management</h3>
+            <p class="for">For businesses that want their own CRM on their own server, kept updated, backed up and secure.</p>
+          </div>
+          <ul class="incl">
+            <li>Open-source CRM installed on your cloud server, in Docker</li>
+            <li>Your domain, TLS and single sign-on for your team</li>
+            <li>Daily database backups, with a restore tested before handover</li>
+            <li>Updates, monitoring and fixes once it is live</li>
+          </ul>
+          <dl class="terms">
+            <div><dt>Typical time</dt><dd>Agreed after a call</dd></div>
             <div><dt>Price</dt><dd>Fixed quote after a call</dd></div>
           </dl>
         </article>
@@ -568,6 +588,7 @@
                 <option>Web app or MVP</option>
                 <option>Mobile app</option>
                 <option>DevOps and cloud setup</option>
+                <option>CRM hosting</option>
                 <option>Technical SEO fix</option>
                 <option>A full-time hire</option>
                 <option>Something else</option>
