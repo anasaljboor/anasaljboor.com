@@ -21,7 +21,7 @@ colors:
 typography:
   display:
     fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(40px, 5.6vw, 68px)"
+    fontSize: "clamp(38px, 4.4vw, 58px)"
     fontWeight: 800
     lineHeight: 1.04
     letterSpacing: "-0.035em"
@@ -182,7 +182,7 @@ A dark neutral field with a single saturated warm yellow and two small functiona
 **Character:** One confident grotesque at several weights does all the talking; tight negative tracking on headings gives the page an engineered, compact voice, and mono appears only where something can literally be typed into a terminal.
 
 ### Hierarchy
-- **Display** (800, clamp 40 to 68px, 1.04, -0.035em): the single hero H1.
+- **Display** (800, clamp 38 to 58px, 1.04, -0.035em): the single hero H1.
 - **Headline** (700, clamp 28 to 40px, -0.02em, balanced wrap): section titles, left-aligned, followed by a muted 17px sub line of at most 40em.
 - **Title** (700, 21px, 1.25): service, case and product names. Door titles run at 22px; step and FAQ titles at 18px.
 - **Lede** (400, 19px, 1.6, muted, max 34em; 17px on phones): the hero offer line.
