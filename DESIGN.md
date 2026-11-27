@@ -1,279 +1,294 @@
 ---
 name: Anas Al-Jboor
-description: One engineer, the whole path. A light sand page with one burnt-orange voice.
+description: Software engineer and DevOps engineer. Wayfinding signage on sand, one burnt-orange line.
 colors:
-  bg: "#f6f2ea"
-  panel: "#fffdf8"
-  panel-2: "#efe9dd"
-  line: "#e3dccd"
-  line-2: "#cfc5b2"
-  fg: "#1b1712"
-  fg-soft: "#3b342b"
+  sand: "#f6f2ea"
+  paper: "#fffdf8"
+  ink: "#1b1712"
+  ink-2: "#3b342b"
   muted: "#6a6152"
-  accent: "#c2410c"
-  accent-hi: "#d9480f"
-  accent-ink: "#ffffff"
-  accent-wash: "rgba(194, 65, 12, .07)"
-  accent-edge: "rgba(194, 65, 12, .28)"
-  amber-edge: "#efc9b0"
+  rule: "#d9d0bf"
+  line: "#c2410c"
+  line-hi: "#a3360a"
+  on-line: "#ffffff"
+  band: "#1b1712"
+  band-text: "#f6f2ea"
+  band-body: "#e4dccd"
+  band-muted: "#bdb19c"
+  band-rule: "#3d362d"
   ok: "#2f7d4f"
   err: "#b42318"
 typography:
   display:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(38px, 4.4vw, 58px)"
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(46px, 6.4vw, 92px)"
     fontWeight: 800
-    lineHeight: 1.04
+    lineHeight: 0.96
     letterSpacing: "-0.035em"
+  display-terminus:
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(44px, 6vw, 80px)"
+    fontWeight: 800
+    lineHeight: 0.96
+    letterSpacing: "-0.03em"
   headline:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "clamp(28px, 3.4vw, 40px)"
-    fontWeight: 700
-    letterSpacing: "-0.02em"
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(34px, 4.2vw, 54px)"
+    fontWeight: 800
+    lineHeight: 1.02
+    letterSpacing: "-0.03em"
+  figure:
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "44px"
+    fontWeight: 800
+    lineHeight: 1
+    letterSpacing: "-0.03em"
+    fontFeature: "tnum"
   title:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "21px"
-    fontWeight: 700
-    lineHeight: 1.25
-    letterSpacing: "-0.02em"
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "23px"
+    fontWeight: 800
+    lineHeight: 1.15
+    letterSpacing: "-0.015em"
   lede:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "19px"
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(19px, 1.6vw, 22px)"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.45
   body:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "16px"
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "17px"
     fontWeight: 400
-    lineHeight: 1.6
-  body-sm:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "15px"
-    fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.55
+    fontFeature: "tnum"
   label:
-    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
-    fontSize: "13.5px"
-    fontWeight: 400
-    lineHeight: 1.5
-  mono:
-    fontFamily: "JetBrains Mono, ui-monospace, Menlo, monospace"
-    fontSize: "12px"
-    fontWeight: 400
+    fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
+    fontSize: "15px"
+    fontWeight: 600
+    lineHeight: 1.4
 rounded:
-  code: "7px"
-  chip: "8px"
-  sm: "10px"
-  md: "12px"
-  card: "18px"
-  feature: "22px"
-  stage: "24px"
+  sm: "4px"
   full: "50%"
 spacing:
+  xs: "8px"
+  sm: "14px"
+  md: "28px"
+  lg: "40px"
+  xl: "64px"
+  section: "96px"
+  section-mobile: "64px"
   gutter: "24px"
   gutter-mobile: "16px"
-  gap: "16px"
-  card-pad: "28px"
-  section: "72px"
-  section-mobile: "56px"
-  container: "1120px"
+  wrap: "1180px"
+  dot: "26px"
+  bar: "8px"
 components:
   button-primary:
-    backgroundColor: "{colors.accent}"
-    textColor: "{colors.accent-ink}"
-    typography: "{typography.body-sm}"
-    rounded: "{rounded.md}"
-    padding: "13px 20px"
-  button-primary-hover:
-    backgroundColor: "{colors.accent-hi}"
-    textColor: "{colors.accent-ink}"
-  button-ghost:
-    backgroundColor: "{colors.panel}"
-    textColor: "{colors.fg}"
-    rounded: "{rounded.md}"
-    padding: "13px 20px"
-  button-small:
+    backgroundColor: "{colors.line}"
+    textColor: "{colors.on-line}"
+    typography: "{typography.label}"
     rounded: "{rounded.sm}"
-    padding: "8px 14px"
-  card:
-    backgroundColor: "{colors.panel}"
-    textColor: "{colors.fg}"
-    rounded: "{rounded.card}"
-    padding: "{spacing.card-pad}"
-  card-chosen:
-    backgroundColor: "{colors.accent-wash}"
-    textColor: "{colors.fg}"
-    rounded: "{rounded.card}"
-    padding: "26px 28px"
+    padding: "14px 20px"
+  button-primary-hover:
+    backgroundColor: "{colors.line-hi}"
+    textColor: "{colors.on-line}"
+  button-small:
+    backgroundColor: "{colors.line}"
+    textColor: "{colors.on-line}"
+    rounded: "{rounded.sm}"
+    padding: "9px 14px"
+  button-ghost:
+    backgroundColor: "transparent"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.sm}"
+    padding: "14px 20px"
+  button-ghost-hover:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.band-text}"
+  button-ink:
+    backgroundColor: "{colors.ink}"
+    textColor: "{colors.band-text}"
+    rounded: "{rounded.sm}"
+    padding: "14px 20px"
+  nav-band:
+    backgroundColor: "{colors.band}"
+    textColor: "{colors.band-text}"
+    height: "60px"
+  monogram:
+    backgroundColor: "{colors.line}"
+    textColor: "{colors.on-line}"
+    rounded: "{rounded.full}"
+    size: "30px"
+  station-dot:
+    backgroundColor: "{colors.paper}"
+    rounded: "{rounded.full}"
+    size: "{spacing.dot}"
   input:
-    backgroundColor: "rgba(0, 0, 0, .35)"
-    textColor: "{colors.fg}"
-    rounded: "{rounded.md}"
+    backgroundColor: "{colors.sand}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.sm}"
     padding: "12px 14px"
-  icon-tile:
-    backgroundColor: "{colors.accent-wash}"
-    textColor: "{colors.accent}"
-    rounded: "{rounded.md}"
-    size: "44px"
-  nav:
-    backgroundColor: "rgba(12, 12, 13, .82)"
-    textColor: "{colors.muted}"
-    height: "64px"
-  code-chip:
-    backgroundColor: "rgba(0, 0, 0, .35)"
-    textColor: "{colors.ok}"
-    typography: "{typography.mono}"
-    rounded: "{rounded.code}"
-    padding: "4px 9px"
+  input-focus:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+  form-card:
+    backgroundColor: "{colors.paper}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.sm}"
+    padding: "32px"
+  terminal-band:
+    backgroundColor: "{colors.line}"
+    textColor: "{colors.on-line}"
 ---
 
 # Design System: Anas Al-Jboor
 
 ## Overview
 
-**Creative North Star: "The Lit Path"**
+**Creative North Star: "The Line"**
 
-A near-black workshop with one lamp on. Everything sits on a dark, faintly cool ground in hairline-bordered panels, and a single warm yellow marks what to do next and which way the work runs: the primary action, the chosen door, the line that traces interface to API to cloud to search. The yellow is the only voice that raises itself; everything else stays in greys and lets real stack names, real employers and real commands carry the page.
+The site is a piece of wayfinding signage. A sand ground carries ink signage bands with sand lettering, and through it runs one thick burnt-orange line with white stations ringed in ink. The work Anas covers (interface, API and data, cloud and CI/CD, search) is drawn as stops on that line, and the line ends at a terminus: the client's launch, and at the foot of the page, an orange section where the visitor books a call. The line runs horizontally on wide screens and turns vertical below 920px, the way a route map is redrawn for a narrow panel.
 
-Density is calm and editorial rather than dashboard-tight: one idea per section, generous 72px section rhythm, left-aligned headings, body copy held to readable measures (34 to 40em). Structure comes from hairlines and rows (service rows, experience rows, FAQ rows) more than from boxed cards; cards appear where an item is a separate thing you can open. Depth is a warm amber tint rather than lift: the few panels that matter most get a gradient that starts in dark amber and fades into the panel grey.
+Everything is set in one face, Overpass, a descendant of the Highway Gothic lettering on road signs, at three weights. Times and figures use tabular numerals, so the services read as a timetable. Surfaces are flat. Structure comes from rules (2px ink rules open a group, 1px sand rules divide rows), from full-bleed colour bands, and from the line itself. Corners are square-ish at 4px; the only round forms are the stations and the monogram.
 
-Motion is short and purposeful: the hero copy and the path steps rise in once, the path line draws itself, hover lifts a card or button by one to three pixels and nudges its arrow. Nothing loops.
+The world explicitly refuses the split hero with a floating gradient card, icon-tile service cards and code-chip decoration. There are no gradients, no drop shadows, no glass and no monospace.
 
 **Key Characteristics:**
-- Near-black ground, grey panels, hairline borders; one warm yellow accent.
-- Yellow means action or the selected path, never decoration.
-- Rows and hairlines before boxes; cards only for discrete, linkable items.
-- Featured panels warm up with an amber-to-panel gradient instead of shadows.
-- Onest for everything readable; JetBrains Mono only for real commands.
-- Line icons drawn as inline SVG at 2px stroke, rounded caps.
+- One burnt-orange line (8px bar) with 26px stations: paper fill, 5px ink ring.
+- Ink bands (nav, recruiter section, footer) with sand text; one orange terminus band for contact.
+- Overpass only, weights 400 / 600 / 800, tabular figures throughout.
+- Flat surfaces, 4px corners, structure carried by 2px ink and 1px sand rules.
+- Timetable rows instead of cards.
 
 ## Colors
 
-> Updated 2026-11-27: Anas chose the "sand and burnt orange" palette and Onest replaced Inter. Every color lives as a token in `:root` in style.css. Read the roles below with the new values: Lamp Yellow is now Burnt Orange (#c2410c, white text on fills), Workshop Black is now Sand (#f6f2ea), Chalk is now Ink (#1b1712), and warm panels fade from a pale peach (#fbe6d6). The page also has one type moment: a large statement line between Work and Process whose words light up once in view.
-
-A dark neutral field with a single saturated warm yellow and two small functional colors.
+A warm sand-and-ink signage palette with a single saturated line colour that carries every action and the route itself.
 
 ### Primary
-- **Lamp Yellow** (accent): primary buttons, the path line and its dots, process step numbers, links inside prose, FAQ open state, focus rings, text selection. Hover brightens to **Lamp Yellow Hi** (accent-hi).
-- **Lamp Ink** (accent-ink): the near-black text that sits on yellow fills (buttons, the AA monogram, selection, skip link).
-- **Yellow Wash** (accent-wash) and **Yellow Edge** (accent-edge): the translucent fill and border for things in the chosen state: the client door, service icon tiles, the large portrait ring.
-- **Amber Edge** (amber-edge): the solid dark-amber border on warm featured panels (the hero path, the contact block, the zero-knowledge diagram box).
+- **Burnt Orange Line** (`line`): the route bar, every primary button, link underlines, the focus outline, the FAQ plus sign, text selection, the monogram disc, and the full-bleed contact terminus. It is the only chromatic colour on the page.
+- **Deep Line** (`line-hi`): hover state of primary buttons.
+- **White on Line** (`on-line`): text and icons set on the line colour.
 
 ### Neutral
-- **Workshop Black** (bg): page ground, also the "hole" inside outlined dots and step numbers.
-- **Panel Grey** (panel) and **Raised Panel** (panel-2): card and ghost-button fills; panel-2 for nested boxes inside cards and image placeholders.
-- **Hairline** (line) and **Hairline Strong** (line-2): every divider and card border; line-2 is the hover border and the input border.
-- **Chalk** (fg): headings and primary text. **Soft Chalk** (fg-soft): body copy inside warm panels and case studies, a step brighter than muted.
-- **Ash** (muted): secondary text, nav links, metadata, descriptions.
+- **Sand** (`sand`): the page ground; also input fields at rest.
+- **Paper** (`paper`): station fills, the contact form card, focused inputs. One step lighter than sand, never a raised card.
+- **Ink** (`ink`): body text, headings, station rings, 2px group rules, ghost button borders.
+- **Ink Soft** (`ink-2`): lede, descriptions and list items under a heading.
+- **Muted Earth** (`muted`): secondary notes, stacks, metadata, column heads.
+- **Sand Rule** (`rule`): 1px row dividers and input borders at rest.
+- **Signage Band** (`band`, same value as ink): nav, recruiter section, footer, the hero portrait caption.
+- **Band Sand** (`band-text`), **Band Body** (`band-body`), **Band Muted** (`band-muted`), **Band Rule** (`band-rule`): heading, body, secondary and divider colours on the ink band.
 
-### Functional
-- **Signal Green** (ok): checkmarks in service lists, command text in code chips, form success.
-- **Coral** (err): invalid fields and form errors only.
+### Status
+- **Signal Green** (`ok`) and **Signal Red** (`err`): form status messages and invalid field borders only.
 
 ### Named Rules
-**The One Lamp Rule.** Yellow is the only accent. It marks the next action or the chosen path; if an element is yellow, a visitor should be able to say what it leads to.
+**The One Line Rule.** Burnt orange belongs to the line and to what moves the visitor along it: the route, actions, links, focus. It never becomes a decorative fill, a tint wash or a gradient.
 
-**The Ink-On-Lamp Rule.** Text on a yellow fill is always accent-ink, never white or fg.
+**The Signage Band Rule.** Full-bleed colour bands are the only way to change ground. Ink bands carry sand text; the single orange band is the terminus and holds the contact paths. No third band colour.
 
 ## Typography
 
-**Display Font:** Inter (with system-ui, -apple-system, Segoe UI)
-**Body Font:** Inter
-**Label/Mono Font:** JetBrains Mono (with ui-monospace, Menlo), for commands only
+**Display Font:** Overpass (with Helvetica Neue, Arial, sans-serif)
+**Body Font:** Overpass
+**Label Font:** Overpass
 
-**Character:** One confident grotesque at several weights does all the talking; tight negative tracking on headings gives the page an engineered, compact voice, and mono appears only where something can literally be typed into a terminal.
+**Character:** Highway-sign lettering used for every word, so the page reads as one piece of signage. Hierarchy comes from size and the jump between 400, 600 and 800, never from a second family.
 
 ### Hierarchy
-- **Display** (800, clamp 38 to 58px, 1.04, -0.035em): the single hero H1.
-- **Headline** (700, clamp 28 to 40px, -0.02em, balanced wrap): section titles, left-aligned, followed by a muted 17px sub line of at most 40em.
-- **Title** (700, 21px, 1.25): service, case and product names. Door titles run at 22px; step and FAQ titles at 18px.
-- **Lede** (400, 19px, 1.6, muted, max 34em; 17px on phones): the hero offer line.
-- **Body** (400, 16px, 1.6) and **Body small** (400, 15px): running text and descriptions; most supporting copy is 15px muted.
-- **Label** (400, 13 to 13.5px, muted, sentence case): metadata lines (employer, place, dates), definition terms, tags.
-- **Mono** (400, 12px, Signal Green): command chips in the hero path.
+- **Display** (800, clamp(46px, 6.4vw, 92px), 0.96, -0.035em): the hero H1 only, held to about 11.5em wide.
+- **Display Terminus** (800, clamp(44px, 6vw, 80px), 0.96): the contact heading and the 404 heading.
+- **Headline** (800, clamp(34px, 4.2vw, 54px), 1.02, -0.03em): section H2s. A 30px 800 sub-head splits a section in two.
+- **Figure** (800, 44px, 1, tabular): typical times in the timetable; 32px below 920px.
+- **Title** (800, 19-25px, 1.15, -0.015em): station names (21px), service names (23px), case titles (25px), project names (19px).
+- **Lede** (400, clamp(19px, 1.6vw, 22px), 1.45): the hero paragraph, max 34em. Section subs sit at 19px muted, max 44em.
+- **Body** (400, 17px, 1.55): running text, max about 44em; 15-16px for notes and lists.
+- **Label** (600, 15px): nav links, form labels, column titles, buttons (16px). Sentence case, no tracking.
 
 ### Named Rules
-**The Real Command Rule.** JetBrains Mono is reserved for strings that are real commands or code (`helm upgrade --install`). Never use mono as a "techy" texture for labels or headings.
+**The One Face Rule.** Overpass sets every word, including figures and the form. No monospace, no serif, no second display face.
 
-**The Sentence Case Rule.** Labels, metadata and column titles stay sentence case with no wide tracking; the system has no uppercase label style.
+**The Timetable Figure Rule.** Numbers are tabular everywhere (`font-variant-numeric: tabular-nums` on body), and a time is set large in 800 with its unit beside it at body size.
 
 ## Layout
 
-A single centered column, `min(1120px, 100% - 48px)`, becoming `100% - 32px` under 640px. Sections are separated by 72px vertical padding (56px on phones) with a 32px gap between a section head and its content.
+A single centred wrap (1180px, 24px side gutters; 16px below 640px). Sections are full width with 96px vertical padding (64px on phones), separated by a 1px sand rule unless the next section is a colour band. A section head (H2 plus muted sub, max 760px) sits 48px above its content.
 
-The hero is a two-column grid (1.15fr / 1fr, 56px gap) with copy left and the path panel right; it stacks at 980px. Services are full-width rows on a three-column grid (name, what's included, terms) that collapse to two columns at 980px and one at 640px. Case studies and the two entry doors use two columns; products use three; all go single-column at 980px (doors at 640px). The process is a four-step horizontal timeline on a 2px top rule, becoming 2 then 1 columns.
+The hero is a two-column grid: copy across the left, a 300px portrait with an ink signage caption on the right, aligned to the bottom. Under it the horizontal line spans the full wrap: four stations in equal columns and a wider terminus column (1.35fr) holding the primary call and two text links. Services form a three-column timetable (name and summary, what you get, typical time) on a vertical line. Work entries are two-column rows (where and when, then what was built), and side projects are a three-column list. The FAQ is a 1fr / 2fr split.
 
-Breakpoints are 980px (tablet: nav links hide, grids stack) and 640px (phone: tighter gutters, primary CTAs stretch full width). Card grid gaps sit at 16 to 18px.
+Responsive behaviour: at 1080px the timetable columns narrow; at 920px the nav links hide (brand and the small CTA remain), every horizontal line turns vertical with stations at the left, the timetable collapses to one column with the time inline, and two-column splits stack; at 640px the portrait becomes a 96px square beside its caption, hero buttons go full width and a mobile booking button appears under the lede.
+
+Gaps step through 8, 14, 28, 40, 56 and 64px.
+
+### Named Rules
+**The Route Turns Rule.** A line diagram is horizontal only while every stop gets a readable column; below 920px it is redrawn vertically, never shrunk or scrolled sideways.
 
 ## Elevation & Depth
 
-Flat by default. Depth comes from tonal steps (bg, panel, panel-2), hairline borders, and a warm amber gradient on the few panels that lead the page. There is exactly one cast shadow, under the hero path panel.
+Flat. There are no drop shadows and no blur. Depth is conveyed by ground changes (sand to ink band to orange terminus), by the one-step lift from sand to paper on the form card and stations, and by rules. The only `box-shadow` in the system is a spread-only double ring that marks the terminus station.
 
 ### Shadow Vocabulary
-- **Path float** (`box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .7)`): the hero path panel only, so it reads as the object the page is about.
-- **Portrait ring** (`box-shadow: 0 0 0 2px bg, 0 0 0 4px accent` small; `0 0 0 3px bg, 0 0 0 5px accent-edge` large): a spaced ring around the portrait; a ring, not a shadow.
+- **Terminus ring** (`box-shadow: 0 0 0 5px var(--bg), 0 0 0 8px var(--ink)`): a sand gap and an outer ink ring around a solid ink station, the interchange symbol of a route map. Used only on the final stop of a line.
 
 ### Named Rules
-**The Warm Glow Rule.** To make a panel feel important, warm it (a 170deg linear or top-left radial gradient from dark amber, #1d190c to #2a220a, into panel grey, with an amber-edge border), don't lift it.
-
-**The Hover Lift Rule.** Interactive cards and buttons move 1 to 3px up on hover with a brighter border; they never gain a shadow.
+**The Flat Signage Rule.** Nothing floats. If a surface needs separation, give it a rule or a band, not a shadow. Spread-only rings on stations are the one exception, because they are part of the map's symbol set.
 
 ## Shapes
 
-Soft, generous rounding that scales with the size of the thing: 7 to 8px on code chips and diagram boxes, 10px on small buttons, 12px on buttons, inputs, icon tiles and logo tiles, 18px on cards, 22px on the hero path, 24px on the contact block. Circles are reserved for people and progress: the AA monogram, the portrait, path dots and step numbers. Borders are always 1px hairlines, except the 2px rules of the process timeline and the 2px outlines of path dots and step numbers.
+Square-ish 4px corners on buttons, inputs, the form card, the portrait and its caption (the photo rounds only on the top, the caption only on the bottom, so the two read as one sign). Circles are reserved for stations and the AA monogram. The line bar is a capsule (radius equal to its 8px thickness). List bullets are 7px solid ink squares. Rules come in two weights: 2px ink opens a group (timetable head, case, FAQ item, band column title), 1px sand divides rows.
 
 ## Components
 
 ### Buttons
-Solid, compact, quietly tactile.
-- **Shape:** gently rounded (12px; 10px on small buttons).
-- **Primary:** yellow fill, ink text, 600 weight at 15px, 13px by 20px padding, often with a trailing arrow icon.
-- **Hover / Focus:** lift 1px, primary brightens to accent-hi, the trailing icon slides 2px right; focus shows a 2px yellow outline at 3px offset. Disabled drops to 60% opacity.
-- **Ghost:** panel fill with a hairline border that strengthens on hover. Used for the CV and every secondary action.
-- **Small:** 8px by 14px, 14px text; the nav "Start a project" button.
+Solid, plain and signage-like: a filled rectangle with a label and an optional 18px stroke icon.
+- **Shape:** 4px corners, 2px border in the fill colour.
+- **Primary:** line fill, white text, 600 16px, 14px 20px padding, 10px icon gap.
+- **Hover / Active:** fill and border shift to deep line over .18s; active nudges down 1px.
+- **Small:** 9px 14px, 15px text; the nav CTA.
+- **Ghost:** transparent with a 2px ink border and ink text; hover fills ink with sand text. On the ink band it inverts to sand border and text.
+- **Ink:** ink fill with sand text, used on the orange terminus where an orange button would vanish.
+- **Disabled:** 60% opacity, progress cursor.
 
-### Cards / Containers
-- **Corner Style:** 18px.
-- **Background:** panel, hairline border; the lead items (first two case studies) take the Warm Glow gradient with an amber-edge border.
-- **Shadow Strategy:** none; hover lift only (see Elevation).
-- **Internal Padding:** 24 to 28px.
-- **Product cards** carry a 150px visual band on #0f0f11 above the body, holding an inline SVG or box diagram of the real system, never a stock image.
-
-### Entry doors
-Two large linked panels under the hero splitting clients from recruiters. The client door is in the chosen state (yellow wash fill, yellow edge border, full yellow border on hover); the recruiter door is a plain card. Each ends in a yellow "See ..." link with an arrow.
-
-### Inputs / Fields
-- **Style:** translucent black fill (rgba(0,0,0,.35)), line-2 border, 12px radius, 12px by 14px padding, yellow caret. Labels sit above in 14px 600; optional hints in muted 400.
-- **Focus:** border turns yellow and the fill deepens to rgba(0,0,0,.5); no glow.
-- **Error:** after a submit attempt, invalid fields take a Coral border; status text below uses Signal Green or Coral.
+### Text links
+600 weight, 2px burnt-orange underline offset 5px; hover turns the text orange. Inline links in case stacks and FAQ answers use the same underline. Contact channels on the orange band use a 1px white underline that thickens to 2px on hover.
 
 ### Navigation
-Sticky 64px bar, 82% opaque black with a 12px backdrop blur and a hairline bottom border. AA monogram and name at left, muted 15px links that turn Chalk on hover, a small primary button at right. Under 980px the links hide and only the brand and the button remain.
+A sticky 60px ink band. AA monogram (30px orange disc, white 800 12px letters) and name at left, sand-muted 600 15px links that brighten to sand on hover, small primary CTA at right. Below 920px only brand and CTA remain.
 
-### Rows
-The system's main structural device: hairline-separated rows for services, experience, stack, side projects and FAQ. Experience rows lead with a 42px rounded monogram tile tinted from a per-entry hue (16% fill, 30% border); those hues belong to the entry, not the palette. FAQ rows use a drawn chevron that rotates and turns yellow when open.
+### Inputs / Fields
+- **Style:** sand fill, 2px sand-rule border, 4px corners, 12px 14px padding, 400 16px text; label above in 600 15px with optional hints in muted 400.
+- **Hover:** border darkens to a mid sand.
+- **Focus:** border goes ink and the fill lifts to paper; no glow.
+- **Error:** after a submit attempt, invalid fields take the red border; status text below in red or green.
 
-### The Path (signature)
-A warm-glow panel tracing the four layers of the work as a vertical timeline: a 2px yellow line that fades as it descends and draws itself on load, outlined yellow dots with the final dot filled, a 16px bold title, a muted stack line, and an optional green mono command chip. Process steps reuse its vocabulary horizontally: numbered outlined yellow circles on a 2px hairline.
+### Form card
+A paper panel (32px padding, 4px corners) set on the orange terminus band, holding the contact form. It is the one boxed surface on the page.
 
-### Icon tiles
-44px rounded squares in yellow wash with a yellow-edge border, holding a 1.8px-stroke yellow line icon. Used once per service.
+### Line and stations (signature)
+An 8px burnt-orange capsule behind a row (or column) of 26px stations: paper fill, 5px ink ring. Each station has an 800 21px name and a muted 15px one-line note. Hovering a station's link fills it orange, scales it to 1.12 and underlines the name in 3px orange. The terminus station is solid ink with the sand-gap ring. On load, the hero line draws left to right once (1.2s, clip-path) when motion is allowed.
+
+### Timetable row (signature)
+A service on the vertical line: station at left, then name and summary, a square-bulleted list of what is included, and the typical time in 44px tabular 800 with "Fixed quote after a call" below in muted 14px. A 2px ink head row labels the columns; 1px sand rules divide rows.
+
+### Signage band
+Full-bleed ink section for recruiters: sand headings, band-body text, columns opened by a sand 2px rule under a 600 15px column title, rows divided by band-rule lines.
+
+### FAQ item
+A disclosure opened by a 2px ink rule, 600 20px question, and a 3px orange plus sign that rotates 45 degrees to a cross when open.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep yellow (#ffc83d) for actions, links and the selected path; put accent-ink text on every yellow fill.
-- **Do** build structure from 1px hairlines (#262629) and rows before reaching for another card.
-- **Do** warm a featured panel with the amber-to-panel gradient and an amber-edge (#3a3112) border instead of adding a shadow.
-- **Do** draw icons as inline SVG line icons (24px viewBox, 2px stroke, round caps and joins) in currentColor.
-- **Do** use JetBrains Mono only for real commands, set in Signal Green inside a dark code chip.
-- **Do** show real systems as diagrams built from the system's own boxes and lines when no screenshot exists.
-- **Do** keep entrance motion to the hero (rise, path draw) on the shared ease `cubic-bezier(.16, 1, .3, 1)`, and drop all motion under prefers-reduced-motion.
+- **Do** route every primary action through burnt orange (`line`) and keep orange off anything that is not the route, an action, a link or focus.
+- **Do** draw sequences (scope, process, services) as stations on the line, horizontal above 920px and vertical below.
+- **Do** set every word in Overpass at 400, 600 or 800, with tabular figures.
+- **Do** separate content with 2px ink rules for groups and 1px sand rules for rows, and change ground only with a full-bleed band.
+- **Do** keep corners at 4px and reserve circles for stations and the AA monogram on its orange disc.
+- **Do** use a 3px burnt-orange focus outline offset 3px (ink on the orange band, sand on the ink band).
 
 ### Don't:
-- **Don't** introduce a second accent hue; Signal Green and Coral are status colors, not brand colors.
-- **Don't** put white or light text on yellow.
-- **Don't** add drop shadows to cards or buttons; the hero path is the only floating object.
-- **Don't** use uppercase, widely tracked labels, or category kickers above headings. Only factual metadata (employer, place, dates) may sit above a title, as plain sentence-case muted text.
-- **Don't** use mono for labels, headings or decoration.
-- **Don't** use emoji or icon fonts as icons.
+- **Don't** use gradients, drop shadows, glass or blur; the terminus ring is the only `box-shadow`.
+- **Don't** build a split hero with a floating gradient card, icon-tile service cards or code-chip decoration.
+- **Don't** introduce monospace or a second typeface.
+- **Don't** add a second chromatic accent or a third band colour.
+- **Don't** wrap services or work in cards; they are rows on a line or under a rule.

@@ -21,7 +21,7 @@ The site sells Anas's freelance services and supports his job search. Success: a
 
 ## Positioning
 
-One engineer who covers the whole path, from interface and API to the production cluster and to search visibility. Few freelancers in the region build the app, run it on Kubernetes with Terraform and CI/CD, and also make it findable by Google and AI assistants. He works in Arabic, English and German.
+One engineer who covers the whole path, from interface and API to the production cluster and to search visibility. Few freelancers in the region build the app, run it on Kubernetes with Terraform and CI/CD, and also make it findable by Google and AI assistants. He works in Arabic and English.
 
 ## Operating Context
 
@@ -41,7 +41,7 @@ One engineer who covers the whole path, from interface and API to the production
 
 ## Brand Commitments
 
-- Name: Anas Al-Jboor. Monogram "AA" in a yellow circle.
+- Name: Anas Al-Jboor. Monogram "AA" in a burnt-orange circle (also the favicon).
 - Title, used everywhere: "Software engineer and DevOps engineer" (Anas, 2026-11-27).
 - Voice: first person, plain, specific, no hype.
 
