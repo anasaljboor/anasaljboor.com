@@ -528,9 +528,7 @@
           </ul>
         </div>
 
-        <!-- TODO(Anas): create a free form at formspree.io sent to your email and replace YOUR_FORM_ID.
-             Until then, the form opens the visitor's email app with the message filled in. -->
-        <form class="form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+        <form class="form" id="contact-form" action="https://formspree.io/f/moedzqpl" method="POST" novalidate>
           <div class="field-row">
             <label class="field">
               <span>Your name</span>
@@ -569,6 +567,7 @@
             <span>About the project</span>
             <textarea name="message" rows="5" required placeholder="What should it do, who is it for, and when do you need it?"></textarea>
           </label>
+          <input type="hidden" name="_subject" value="New project request from anasaljboor.com" />
           <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <div class="form-foot">
             <button class="btn primary" type="submit">Send request <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
@@ -614,7 +613,6 @@
       var form = document.getElementById("contact-form");
       var status = form.querySelector(".form-status");
       var button = form.querySelector("button[type=submit]");
-      var placeholder = form.action.indexOf("YOUR_FORM_ID") !== -1;
 
       function say(text, kind) {
         status.textContent = text;
@@ -633,16 +631,6 @@
         var data = new FormData(form);
         if (data.get("_gotcha")) return;
 
-        if (placeholder) {
-          var body = "Name: " + data.get("name") + "\nEmail: " + data.get("email") +
-            "\nNeed: " + data.get("need") + "\nBudget: " + (data.get("budget") || "Not sure yet") +
-            "\n\n" + data.get("message");
-          window.location.href = "mailto:anas.ahmadaljboor@gmail.com?subject=" +
-            encodeURIComponent("Project request: " + data.get("need")) + "&body=" + encodeURIComponent(body);
-          say("Your email app should open with the message ready to send.", "ok");
-          return;
-        }
-
         button.disabled = true;
         say("Sending…");
         fetch(form.action, { method: "POST", body: data, headers: { Accept: "application/json" } })
@@ -653,7 +641,7 @@
             say("Thanks, your request is in. I'll reply by email.", "ok");
           })
           .catch(function () {
-            say("That didn't send. Please email anas.ahmadaljboor@gmail.com instead.", "error");
+            say("That didn't send. Please email anas.ahmadaljboor@gmail.com or message me on WhatsApp instead.", "error");
           })
           .then(function () { button.disabled = false; });
       });
