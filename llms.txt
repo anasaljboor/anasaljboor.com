@@ -1,0 +1,27 @@
+# Anas Al-Jboor
+
+> Freelance web and DevOps developer based in Amman, Jordan. Builds websites, web apps and cloud setups for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic, English, German. Also open to full-time full-stack and DevOps roles.
+
+## Services (fixed quote after a free call; no public price list)
+
+- Business website: design and build, mobile first, contact form, Google Search Console, sitemap and schema.org set up. Typically 2 to 4 weeks.
+- Web app or MVP: frontend, FastAPI backend, PostgreSQL, sign-in and roles, CI/CD deployment. Typically 6 to 12 weeks.
+- DevOps and cloud setup: CI/CD (GitHub Actions, GitLab CI, Azure DevOps), Docker, Kubernetes, Helm, Terraform, Ansible, TLS, SSO, logs and dashboards. Typically 1 to 4 weeks.
+- Technical SEO and AI search fix: crawling, indexing, rendering, structured data, Core Web Vitals, fixed in code. About 1 week.
+
+## Experience
+
+- DevOps Engineer, KOUN (drone-delivery start-up, Amman), Apr 2026 to now: production Kubernetes on DigitalOcean, Azure DevOps pipelines with Helm, Gateway API ingress, Keycloak, Temporal, RabbitMQ, PostgreSQL.
+- DevOps Engineer, Orbit Technologies (KOUN subsidiary), Apr 2026 to now: Terraform and Ansible environments on Huawei Cloud for a SAMA-regulated client, GitHub Actions, ELK, Trivy.
+- DevOps / Cloud Engineer (contract), German start-up, Sep 2025 to Feb 2026: hosting benchmark on Azure, AWS and DigitalOcean.
+- Freelance Full-Stack Developer, 2024 to 2025: main developer of SecureFlow (FastAPI, REST and WebSocket, Android).
+- Cloud Engineering Intern, Orange Jordan, 3 summers, 2022 to 2024.
+- B.Sc. Computer Science, German Jordanian University, 2021 to 2025.
+
+## Links
+
+- [Home page](https://anasaljboor.com/)
+- [CV (PDF)](https://anasaljboor.com/cv.pdf)
+- [GitHub](https://github.com/anasaljboor)
+- [LinkedIn](https://www.linkedin.com/in/anas-al-jboor)
+- Contact: anas.ahmadaljboor@gmail.com
