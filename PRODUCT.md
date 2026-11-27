@@ -34,7 +34,8 @@ One engineer who covers the whole path, from interface and API to the production
 ## Capabilities and Constraints
 
 - Real experience (from cv.pdf): DevOps Engineer at KOUN (production Kubernetes on DigitalOcean, Azure DevOps pipelines, Helm, Gateway API, Keycloak, Temporal, RabbitMQ); Orbit Technologies for a SAMA-regulated client on Huawei Cloud (~13 VMs with Terraform and Ansible, GitHub Actions, ELK, Trivy, SAMA CRFR evidence); remote contract for a German start-up (hosting benchmark on Azure, AWS, DigitalOcean); freelance main developer of SecureFlow (FastAPI REST and WebSocket, Android); Orange Jordan cloud intern, 3 summers.
-- Undecided: typical timelines (shown on the page as first estimates, pending Anas's confirmation in the PR), WhatsApp number, booking link, Formspree form ID, availability dates, whether to add an Arabic version.
+- Confirmed by Anas (2026-11-27): typical times (website 2-4 weeks, web app 6-12, DevOps 1-4, SEO fix about 1 week) and the process (free 20-minute call, proposal within a few days, weekly demos).
+- Undecided: WhatsApp number, booking link, Formspree form ID, availability dates, whether to add an Arabic version.
 
 ## Brand Commitments
 
