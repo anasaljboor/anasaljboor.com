@@ -239,16 +239,9 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
 
 /* ── motion: the line draws once on load ── */
 @media (prefers-reduced-motion: no-preference) {
-  .hero .stops::before { transform-origin: left center; animation: draw 1.4s var(--ease) .15s both; }
-  .hero .stop .dot { animation: stop-in .5s var(--ease) both; }
-  .hero .stop:nth-child(1) .dot { animation-delay: .25s; }
-  .hero .stop:nth-child(2) .dot { animation-delay: .45s; }
-  .hero .stop:nth-child(3) .dot { animation-delay: .65s; }
-  .hero .stop:nth-child(4) .dot { animation-delay: .85s; }
-  .hero .stop:nth-child(5) .dot { animation-delay: 1.05s; }
+  .hero .stops::before { animation: draw 1.2s var(--ease); }
 }
-@keyframes draw { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-@keyframes stop-in { from { transform: scale(.4); } to { transform: scale(1); } }
+@keyframes draw { from { clip-path: inset(0 85% 0 0); } to { clip-path: inset(0 0 0 0); } }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
@@ -303,5 +296,4 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
 .mobile-cta { display: none; }
 @media (max-width: 640px) {
   .mobile-cta { display: flex; justify-content: center; margin-top: 24px; }
-  .terminus .hero-actions .btn { display: none; }
 }
