@@ -1,38 +1,39 @@
 :root {
-  --bg: #0c0c0d;
-  --panel: #151517;
-  --panel-2: #1b1b1e;
-  --line: #262629;
-  --line-2: #3a3a3f;
-  --fg: #f3f3f2;
-  --muted: #a3a3a9;
-  --accent: #ffc83d;
-  --accent-hi: #ffd666;
-  --accent-ink: #1a1400;
-  --accent-wash: rgba(255, 200, 61, .1);
-  --accent-edge: rgba(255, 200, 61, .28);
-  --fg-2: #cfcfd2;
-  --nav-bg: rgba(12, 12, 13, .82);
-  --warm: #1d190c;
-  --warm-edge: #3a3112;
-  --accent-fade: rgba(255, 200, 61, .15);
-  --code-bg: #0f0f11;
-  --inset: rgba(0, 0, 0, .35);
-  --inset-focus: rgba(0, 0, 0, .5);
-  --placeholder: #85858c;
-  --line-hover: #4a4a50;
-  --underline: rgba(255, 255, 255, .3);
-  --shadow: rgba(0, 0, 0, .7);
-  --ok: #3ddc84;
-  --err: #ff8a7a;
+  /* palette: sand and burnt orange (chosen by Anas 2026-11-27) */
+  --bg: #f6f2ea;
+  --panel: #fffdf8;
+  --panel-2: #efe9dd;
+  --line: #e3dccd;
+  --line-2: #cfc5b2;
+  --fg: #1b1712;
+  --muted: #6a6152;
+  --accent: #c2410c;
+  --accent-hi: #d9480f;
+  --accent-ink: #ffffff;
+  --accent-wash: rgba(194, 65, 12, .07);
+  --accent-edge: rgba(194, 65, 12, .28);
+  --fg-2: #3b342b;
+  --nav-bg: rgba(246, 242, 234, .88);
+  --warm: #fbe6d6;
+  --warm-edge: #efc9b0;
+  --accent-fade: rgba(194, 65, 12, .12);
+  --code-bg: #efe9dd;
+  --inset: rgba(27, 23, 18, .04);
+  --inset-focus: #ffffff;
+  --placeholder: #9a8f7c;
+  --line-hover: #b3a68e;
+  --underline: rgba(27, 23, 18, .3);
+  --shadow: rgba(27, 23, 18, .14);
+  --ok: #2f7d4f;
+  --err: #b42318;
   --radius: 18px;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
   --ease: cubic-bezier(.16, 1, .3, 1);
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 84px; color-scheme: dark; }
+html { scroll-behavior: smooth; scroll-padding-top: 84px; color-scheme: light; }
 body {
   margin: 0;
   background: var(--bg);
@@ -150,6 +151,10 @@ html { scrollbar-color: var(--line-2) var(--bg); }
   font-family: var(--mono); font-size: 12px; color: var(--ok);
   background: var(--inset); border: 1px solid var(--line); border-radius: 7px;
 }
+@media (min-width: 981px) and (min-height: 700px) {
+  .hero { min-height: calc(100svh - 65px); padding: 48px 0; }
+  .doors { padding-top: 8px; }
+}
 @keyframes draw { from { transform: scaleY(0); } to { transform: scaleY(1); } }
 
 /* ── two doors ── */
@@ -162,7 +167,7 @@ html { scrollbar-color: var(--line-2) var(--bg); }
 .door:hover { border-color: var(--line-2); transform: translateY(-2px); }
 .door-client { background: var(--accent-wash); border-color: var(--accent-edge); }
 .door-client:hover { border-color: var(--accent); }
-.door h2 { font-size: 22px; }
+.door h2 { font-size: 21px; }
 .door p { color: var(--muted); margin-top: 6px; font-size: 15px; }
 .door-go { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-weight: 600; font-size: 14px; color: var(--accent); }
 
@@ -215,7 +220,7 @@ h2 { font-size: clamp(28px, 3.4vw, 40px); font-weight: 700; }
 .stack-line { margin-top: auto; padding-top: 16px; font-size: 13px; color: var(--muted); }
 .stack-line a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 
-.sub-head { font-size: 22px; margin: 56px 0 18px; }
+.sub-head { font-size: 28px; margin: 64px 0 18px; }
 
 /* ── products ── */
 .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
@@ -445,3 +450,16 @@ h2 { font-size: clamp(28px, 3.4vw, 40px); font-weight: 700; }
 /* ── booking ── */
 .contact-side .book { margin-top: 24px; }
 .steps a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── statement: one type moment ── */
+.statement { padding: 96px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.statement p {
+  font-size: clamp(30px, 4.6vw, 60px); line-height: 1.12; font-weight: 700; letter-spacing: -0.03em;
+  max-width: 18em; text-wrap: balance;
+}
+.statement .w { color: var(--fg); transition: color .5s var(--ease); }
+.statement.is-armed .w { color: var(--line-2); }
+.statement.is-armed.is-on .w { color: var(--fg); }
+.statement.is-armed.is-on .w.hl { color: var(--accent); }
+.statement .w.hl { color: var(--accent); }
+@media (max-width: 640px) { .statement { padding: 64px 0; } }

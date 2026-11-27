@@ -21,12 +21,12 @@
   <meta name="twitter:image" content="https://anasaljboor.com/og.png" />
   <meta name="author" content="Anas Al-Jboor" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="theme-color" content="#0c0c0d" />
+  <meta name="theme-color" content="#f6f2ea" />
   <link rel="canonical" href="https://anasaljboor.com/" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23ffc83d'/><text x='16' y='21' text-anchor='middle' font-family='Arial' font-weight='700' font-size='13' fill='%230c0c0d'>AA</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23c2410c'/><text x='16' y='21' text-anchor='middle' font-family='Arial' font-weight='700' font-size='13' fill='%23ffffff'>AA</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   {
@@ -407,6 +407,11 @@
       <p class="more-row"><a class="more" href="https://github.com/anasaljboor" target="_blank" rel="noopener">Everything else is on GitHub <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a></p>
     </section>
 
+    <!-- ───────── STATEMENT (type moment) ───────── -->
+    <section class="statement" aria-label="What I do">
+      <div class="wrap"><p><span class="w">I</span> <span class="w">design</span> <span class="w">the</span> <span class="w hl">screen</span>, <span class="w">write</span> <span class="w">the</span> <span class="w hl">API</span>, <span class="w">run</span> <span class="w">it</span> <span class="w">on</span> <span class="w hl">Kubernetes</span> <span class="w">and</span> <span class="w">make</span> <span class="w">sure</span> <span class="w hl">Google</span> <span class="w">can</span> <span class="w">find</span> <span class="w">it.</span></p></div>
+    </section>
+
     <!-- ───────── PROCESS ───────── -->
     <section class="wrap" id="process" aria-labelledby="process-title">
       <div class="section-head">
@@ -457,7 +462,7 @@
           <h3 class="col-title">Experience</h3>
           <ul class="rows">
             <li>
-              <span class="logo" style="--c:#ffc83d" aria-hidden="true">K</span>
+              <span class="logo" style="--c:#b45309" aria-hidden="true">K</span>
               <div>
                 <h4>DevOps Engineer · KOUN</h4>
                 <p class="meta">Apr 2026 to now · Amman · drone-delivery start-up</p>
@@ -465,7 +470,7 @@
               </div>
             </li>
             <li>
-              <span class="logo" style="--c:#b48cff" aria-hidden="true">OT</span>
+              <span class="logo" style="--c:#0f766e" aria-hidden="true">OT</span>
               <div>
                 <h4>DevOps Engineer · Orbit Technologies</h4>
                 <p class="meta">Apr 2026 to now · KOUN subsidiary</p>
@@ -473,7 +478,7 @@
               </div>
             </li>
             <li>
-              <span class="logo" style="--c:#5cb8ff" aria-hidden="true">DE</span>
+              <span class="logo" style="--c:#1d4ed8" aria-hidden="true">DE</span>
               <div>
                 <h4>DevOps / Cloud Engineer · Contract</h4>
                 <p class="meta">Sep 2025 to Feb 2026 · remote, Germany</p>
@@ -481,7 +486,7 @@
               </div>
             </li>
             <li>
-              <span class="logo" style="--c:#3ddc84" aria-hidden="true">FL</span>
+              <span class="logo" style="--c:#2f7d4f" aria-hidden="true">FL</span>
               <div>
                 <h4>Freelance Full-Stack Developer</h4>
                 <p class="meta">2024 to 2025 · remote</p>
@@ -489,7 +494,7 @@
               </div>
             </li>
             <li>
-              <span class="logo" style="--c:#ff7a1a" aria-hidden="true">O</span>
+              <span class="logo" style="--c:#c2410c" aria-hidden="true">O</span>
               <div>
                 <h4>Cloud Engineering Intern · Orange Jordan</h4>
                 <p class="meta">3 summers · 2022 to 2024</p>
@@ -688,6 +693,17 @@
           .then(function () { button.disabled = false; });
       });
     })();
+  // statement: words light up once when the line comes into view
+  (function () {
+    var st = document.querySelector('.statement');
+    if (!st || !('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    st.querySelectorAll('.w').forEach(function (w, i) { w.style.transitionDelay = (i * 70) + 'ms'; });
+    st.classList.add('is-armed');
+    var io = new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) { st.classList.add('is-on'); io.disconnect(); }
+    }, { threshold: 0.6 });
+    io.observe(st);
+  })();
   </script>
 </body>
 </html>

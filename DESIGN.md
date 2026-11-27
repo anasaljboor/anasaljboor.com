@@ -1,58 +1,58 @@
 ---
 name: Anas Al-Jboor
-description: One engineer, the whole path. A dark offer page with one warm yellow voice.
+description: One engineer, the whole path. A light sand page with one burnt-orange voice.
 colors:
-  bg: "#0c0c0d"
-  panel: "#151517"
-  panel-2: "#1b1b1e"
-  line: "#262629"
-  line-2: "#3a3a3f"
-  fg: "#f3f3f2"
-  fg-soft: "#cfcfd2"
-  muted: "#a3a3a9"
-  accent: "#ffc83d"
-  accent-hi: "#ffd666"
-  accent-ink: "#1a1400"
-  accent-wash: "rgba(255, 200, 61, .1)"
-  accent-edge: "rgba(255, 200, 61, .28)"
-  amber-edge: "#3a3112"
-  ok: "#3ddc84"
-  err: "#ff8a7a"
+  bg: "#f6f2ea"
+  panel: "#fffdf8"
+  panel-2: "#efe9dd"
+  line: "#e3dccd"
+  line-2: "#cfc5b2"
+  fg: "#1b1712"
+  fg-soft: "#3b342b"
+  muted: "#6a6152"
+  accent: "#c2410c"
+  accent-hi: "#d9480f"
+  accent-ink: "#ffffff"
+  accent-wash: "rgba(194, 65, 12, .07)"
+  accent-edge: "rgba(194, 65, 12, .28)"
+  amber-edge: "#efc9b0"
+  ok: "#2f7d4f"
+  err: "#b42318"
 typography:
   display:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "clamp(38px, 4.4vw, 58px)"
     fontWeight: 800
     lineHeight: 1.04
     letterSpacing: "-0.035em"
   headline:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "clamp(28px, 3.4vw, 40px)"
     fontWeight: 700
     letterSpacing: "-0.02em"
   title:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "21px"
     fontWeight: 700
     lineHeight: 1.25
     letterSpacing: "-0.02em"
   lede:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "19px"
     fontWeight: 400
     lineHeight: 1.6
   body:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.6
   body-sm:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.6
   label:
-    fontFamily: "Inter, system-ui, -apple-system, Segoe UI, sans-serif"
+    fontFamily: "Onest, system-ui, -apple-system, Segoe UI, sans-serif"
     fontSize: "13.5px"
     fontWeight: 400
     lineHeight: 1.5
@@ -144,10 +144,12 @@ Motion is short and purposeful: the hero copy and the path steps rise in once, t
 - Yellow means action or the selected path, never decoration.
 - Rows and hairlines before boxes; cards only for discrete, linkable items.
 - Featured panels warm up with an amber-to-panel gradient instead of shadows.
-- Inter for everything readable; JetBrains Mono only for real commands.
+- Onest for everything readable; JetBrains Mono only for real commands.
 - Line icons drawn as inline SVG at 2px stroke, rounded caps.
 
 ## Colors
+
+> Updated 2026-11-27: Anas chose the "sand and burnt orange" palette and Onest replaced Inter. Every color lives as a token in `:root` in style.css. Read the roles below with the new values: Lamp Yellow is now Burnt Orange (#c2410c, white text on fills), Workshop Black is now Sand (#f6f2ea), Chalk is now Ink (#1b1712), and warm panels fade from a pale peach (#fbe6d6). The page also has one type moment: a large statement line between Work and Process whose words light up once in view.
 
 A dark neutral field with a single saturated warm yellow and two small functional colors.
 
