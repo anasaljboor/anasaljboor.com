@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-27T17:54:11+00:00",
+  "title": "Design System: Anas Al-Jboor",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Workshop Black",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424243",
+          "#616162",
+          "#828283",
+          "#a5a5a6",
+          "#c9c9ca",
+          "#eeeeef"
+        ],
+        "canonical": "oklch(15.5% 0.002 286.2)"
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel Grey",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424243",
+          "#616163",
+          "#828285",
+          "#a5a5a7",
+          "#c9c9cb",
+          "#eeeeef"
+        ],
+        "canonical": "oklch(19.7% 0.004 286.0)"
+      },
+      "panel-2": {
+        "role": "neutral",
+        "displayName": "Raised Panel",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424244",
+          "#616164",
+          "#828286",
+          "#a5a5a8",
+          "#c9c9cb",
+          "#eeeef0"
+        ],
+        "canonical": "oklch(22.3% 0.006 285.9)"
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252526",
+          "#424244",
+          "#616164",
+          "#828285",
+          "#a5a5a8",
+          "#c9c9cb",
+          "#eeeef0"
+        ],
+        "canonical": "oklch(27.0% 0.005 286.0)"
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#424245",
+          "#616165",
+          "#828287",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeef1"
+        ],
+        "canonical": "oklch(35.0% 0.009 285.9)"
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ],
+        "canonical": "oklch(96.4% 0.001 106.4)"
+      },
+      "fg-soft": {
+        "role": "neutral",
+        "displayName": "Soft Chalk",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ],
+        "note": "Reused literal (#cfcfd2) for body copy in warm panels and case studies; not yet a custom property."
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Ash",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#252527",
+          "#424245",
+          "#616165",
+          "#828287",
+          "#a4a4a9",
+          "#c9c9cc",
+          "#eeeef1"
+        ],
+        "canonical": "oklch(71.7% 0.009 286.2)"
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Lamp Yellow",
+        "tonalRamp": [
+          "#120900",
+          "#342100",
+          "#593c00",
+          "#825900",
+          "#ac7800",
+          "#c89f39",
+          "#e5c57f",
+          "#ffecbc"
+        ],
+        "canonical": "oklch(85.9% 0.158 85.8)"
+      },
+      "accent-hi": {
+        "role": "primary",
+        "displayName": "Lamp Yellow Hi",
+        "tonalRamp": [
+          "#110a00",
+          "#312300",
+          "#543f00",
+          "#7b5d00",
+          "#a37d00",
+          "#c0a14d",
+          "#dfc78a",
+          "#feedc3"
+        ],
+        "canonical": "oklch(89.0% 0.137 89.2)"
+      },
+      "accent-ink": {
+        "role": "primary",
+        "displayName": "Lamp Ink",
+        "tonalRamp": [
+          "#0c0b07",
+          "#28251b",
+          "#464233",
+          "#67614c",
+          "#898368",
+          "#aba58f",
+          "#cec9b8",
+          "#f2efe2"
+        ],
+        "canonical": "oklch(19.3% 0.040 95.2)"
+      },
+      "accent-wash": {
+        "role": "primary",
+        "displayName": "Yellow Wash",
+        "tonalRamp": [
+          "#120900",
+          "#342100",
+          "#593c00",
+          "#825900",
+          "#ac7800",
+          "#c89f39",
+          "#e5c57f",
+          "#ffecbc"
+        ]
+      },
+      "accent-edge": {
+        "role": "primary",
+        "displayName": "Yellow Edge",
+        "tonalRamp": [
+          "#120900",
+          "#342100",
+          "#593c00",
+          "#825900",
+          "#ac7800",
+          "#c89f39",
+          "#e5c57f",
+          "#ffecbc"
+        ]
+      },
+      "amber-edge": {
+        "role": "primary",
+        "displayName": "Amber Edge",
+        "tonalRamp": [
+          "#0d0b06",
+          "#282519",
+          "#47422f",
+          "#696147",
+          "#8c8262",
+          "#ada58a",
+          "#cfc9b4",
+          "#f3eee0"
+        ],
+        "canonical": "oklch(31.5% 0.049 93.3)",
+        "note": "Reused literal (#3a3112) on the path panel, contact block and diagram highlight; not yet a custom property."
+      },
+      "ok": {
+        "role": "functional",
+        "displayName": "Signal Green",
+        "tonalRamp": [
+          "#001003",
+          "#002f11",
+          "#005223",
+          "#007837",
+          "#009f4d",
+          "#4dbf7a",
+          "#8edea9",
+          "#c8fed8"
+        ],
+        "canonical": "oklch(79.3% 0.180 154.0)"
+      },
+      "err": {
+        "role": "functional",
+        "displayName": "Coral",
+        "tonalRamp": [
+          "#180504",
+          "#3f1712",
+          "#6a2c24",
+          "#994238",
+          "#ca5c4e",
+          "#e4887b",
+          "#fdb4a8",
+          "#ffe0d8"
+        ],
+        "canonical": "oklch(75.8% 0.145 29.0)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The single hero H1. CSS declares 750; Inter is loaded at static 400-800, so it renders 800."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles, left-aligned, with a muted 17px sub line."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service, case and product names; doors 22px, steps and FAQ 18px."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Hero offer line, muted, max 34em; 17px under 640px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text."
+      },
+      "body-sm": {
+        "displayName": "Body small",
+        "purpose": "Descriptions and supporting copy, usually muted."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Sentence-case metadata: employer, place, dates, definition terms, tags."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Real commands only, in Signal Green code chips."
+      }
+    },
+    "shadows": [
+      {
+        "name": "path-float",
+        "value": "0 30px 60px -20px rgba(0, 0, 0, .7)",
+        "purpose": "Hero path panel only."
+      },
+      {
+        "name": "portrait-ring-sm",
+        "value": "0 0 0 2px #0c0c0d, 0 0 0 4px #ffc83d",
+        "purpose": "Spaced yellow ring around the small hero portrait."
+      },
+      {
+        "name": "portrait-ring-lg",
+        "value": "0 0 0 3px #0c0c0d, 0 0 0 5px rgba(255, 200, 61, .28)",
+        "purpose": "Softer ring around the large recruiter-section portrait."
+      },
+      {
+        "name": "warm-glow",
+        "value": "linear-gradient(170deg, #1d190c, #151517 45%)",
+        "purpose": "Not a shadow: the amber-to-panel fill that marks featured panels (path; case cards use #1a1709 to 50%; contact uses radial-gradient(120% 140% at 0% 0%, #2a220a 0%, #151517 55%))."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Shared easing for lifts, icon nudges, chevrons and entrances."
+      },
+      {
+        "name": "hover-lift",
+        "value": "transform .2s to .25s; translateY(-1px) buttons, -2px doors, -3px product cards",
+        "purpose": "Hover response on interactive surfaces."
+      },
+      {
+        "name": "rise",
+        "value": ".6s to .7s; from opacity 0, translateY(10px), blur(3px); staggered 60ms (copy) and 150ms (path steps)",
+        "purpose": "One-time hero entrance."
+      },
+      {
+        "name": "draw",
+        "value": "1.1s, .2s delay; scaleY 0 to 1 from top",
+        "purpose": "The path line drawing itself."
+      },
+      {
+        "name": "color-fade",
+        "value": ".15s",
+        "purpose": "Link, border and background colour changes."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all transitions and animations off",
+        "purpose": "Honours prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "980px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action per view: start a project, send the request.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Start a project <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 20px; border: 1px solid transparent; border-radius: 12px; font-family: var(--sans, Inter, system-ui, sans-serif); font-weight: 600; font-size: 15px; cursor: pointer; transition: transform .2s cubic-bezier(.16,1,.3,1), background .15s, border-color .15s; } .ds-btn svg { transition: transform .2s cubic-bezier(.16,1,.3,1); } .ds-btn:hover { transform: translateY(-1px); } .ds-btn:hover svg { transform: translateX(2px); } .ds-btn:active { transform: none; } .ds-btn:focus-visible { outline: 2px solid var(--accent, #ffc83d); outline-offset: 3px; } .ds-btn-primary { background: var(--accent, #ffc83d); color: var(--accent-ink, #1a1400); } .ds-btn-primary:hover { background: var(--accent-hi, #ffd666); }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions such as the CV download.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Hiring? Get my CV <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 4v13M6 11l6 6 6-6M5 20h14\"/></svg></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 20px; border: 1px solid transparent; border-radius: 12px; font-family: var(--sans, Inter, system-ui, sans-serif); font-weight: 600; font-size: 15px; cursor: pointer; transition: transform .2s cubic-bezier(.16,1,.3,1), background .15s, border-color .15s; } .ds-btn svg { transition: transform .2s cubic-bezier(.16,1,.3,1); } .ds-btn:hover { transform: translateY(-1px); } .ds-btn:hover svg { transform: translateX(2px); } .ds-btn:active { transform: none; } .ds-btn:focus-visible { outline: 2px solid var(--accent, #ffc83d); outline-offset: 3px; } .ds-btn-ghost { background: var(--panel, #151517); color: var(--fg, #f3f3f2); border-color: var(--line, #262629); } .ds-btn-ghost:hover { border-color: var(--line-2, #3a3a3f); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Contact form field with label above and yellow focus border.",
+      "html": "<label class=\"ds-field\"><span>Your email</span><input type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: grid; gap: 6px; font-family: var(--sans, Inter, system-ui, sans-serif); color: var(--fg, #f3f3f2); } .ds-field > span { font-size: 14px; font-weight: 600; } .ds-field input { font: inherit; font-size: 15px; color: var(--fg, #f3f3f2); padding: 12px 14px; border-radius: 12px; background: rgba(0,0,0,.35); border: 1px solid var(--line-2, #3a3a3f); caret-color: var(--accent, #ffc83d); transition: border-color .15s, background .15s; } .ds-field input::placeholder { color: #85858c; } .ds-field input:hover { border-color: #4a4a50; } .ds-field input:focus { outline: none; border-color: var(--accent, #ffc83d); background: rgba(0,0,0,.5); }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Sticky blurred bar: monogram, muted links, small primary button.",
+      "html": "<header class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><span class=\"ds-avatar\">AA</span><span>Anas Al-Jboor</span></a><nav class=\"ds-links\"><a href=\"#\">Services</a><a href=\"#\">Work</a><a href=\"#\">How I work</a></nav><a class=\"ds-nav-btn\" href=\"#\">Start a project</a></header>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 28px; height: 64px; padding: 0 24px; background: rgba(12,12,13,.82); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line, #262629); font-family: var(--sans, Inter, system-ui, sans-serif); color: var(--fg, #f3f3f2); } .ds-brand { display: flex; align-items: center; gap: 10px; font-weight: 600; color: inherit; text-decoration: none; } .ds-avatar { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--accent, #ffc83d); color: var(--accent-ink, #1a1400); font-weight: 800; font-size: 12px; } .ds-links { display: flex; gap: 22px; flex: 1; justify-content: flex-end; } .ds-links a { color: var(--muted, #a3a3a9); font-size: 15px; text-decoration: none; transition: color .15s; } .ds-links a:hover { color: var(--fg, #f3f3f2); } .ds-nav-btn { padding: 8px 14px; border-radius: 10px; background: var(--accent, #ffc83d); color: var(--accent-ink, #1a1400); font-weight: 600; font-size: 14px; text-decoration: none; } .ds-nav-btn:hover { background: var(--accent-hi, #ffd666); } .ds-nav a:focus-visible { outline: 2px solid var(--accent, #ffc83d); outline-offset: 3px; border-radius: 6px; }"
+    },
+    {
+      "name": "Entry Door (chosen)",
+      "kind": "card",
+      "refersTo": "card-chosen",
+      "description": "Linked panel in the chosen state; the client path under the hero.",
+      "html": "<a class=\"ds-door\" href=\"#\"><h3>I need something built</h3><p>See the four services, what each includes and how long it usually takes.</p><span>See services <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-door { display: block; padding: 26px 28px; border-radius: 18px; background: rgba(255,200,61,.1); border: 1px solid rgba(255,200,61,.28); color: var(--fg, #f3f3f2); text-decoration: none; font-family: var(--sans, Inter, system-ui, sans-serif); transition: border-color .2s, transform .25s cubic-bezier(.16,1,.3,1); } .ds-door h3 { margin: 0; font-size: 22px; letter-spacing: -0.02em; } .ds-door p { margin: 6px 0 0; color: var(--muted, #a3a3a9); font-size: 15px; line-height: 1.6; } .ds-door span { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-weight: 600; font-size: 14px; color: var(--accent, #ffc83d); } .ds-door:hover { border-color: var(--accent, #ffc83d); transform: translateY(-2px); } .ds-door:focus-visible { outline: 2px solid var(--accent, #ffc83d); outline-offset: 3px; }"
+    },
+    {
+      "name": "Case Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Panel card for a real system; lead cards take the warm glow.",
+      "html": "<article class=\"ds-case\"><p class=\"ds-case-meta\">KOUN · drone-delivery start-up · Amman</p><h3>Production Kubernetes on DigitalOcean</h3><p>Helm, Gateway API, Keycloak and Azure DevOps pipelines.</p></article>",
+      "css": ".ds-case { padding: 28px; border-radius: 18px; background: linear-gradient(170deg, #1a1709, var(--panel, #151517) 50%); border: 1px solid #332c12; font-family: var(--sans, Inter, system-ui, sans-serif); color: var(--fg, #f3f3f2); } .ds-case-meta { margin: 0 0 12px; color: var(--muted, #a3a3a9); font-size: 13.5px; } .ds-case h3 { margin: 0 0 6px; font-size: 21px; line-height: 1.25; letter-spacing: -0.02em; } .ds-case p:last-child { margin: 0; color: #cfcfd2; font-size: 15.5px; line-height: 1.6; }"
+    },
+    {
+      "name": "The Path",
+      "kind": "custom",
+      "description": "Signature hero panel: a yellow timeline from interface to search with real command chips.",
+      "html": "<figure class=\"ds-path\"><ol><li><span class=\"ds-dot\"></span><div><p class=\"ds-pt\">API and data</p><p>FastAPI, REST and WebSocket, PostgreSQL.</p><code>uvicorn app.main:app</code></div></li><li><span class=\"ds-dot ds-dot-end\"></span><div><p class=\"ds-pt\">Cloud and CI/CD</p><p>Docker, Kubernetes, Helm, Terraform.</p><code>helm upgrade --install</code></div></li></ol></figure>",
+      "css": ".ds-path { margin: 0; padding: 26px 26px 22px; border-radius: 22px; background: linear-gradient(170deg, #1d190c, var(--panel, #151517) 45%); border: 1px solid #3a3112; box-shadow: 0 30px 60px -20px rgba(0,0,0,.7); font-family: var(--sans, Inter, system-ui, sans-serif); color: var(--fg, #f3f3f2); } .ds-path ol { list-style: none; margin: 0; padding: 0; position: relative; } .ds-path ol::before { content: ''; position: absolute; left: 6px; top: 10px; bottom: 26px; width: 2px; background: linear-gradient(var(--accent, #ffc83d), rgba(255,200,61,.15)); } .ds-path li { display: flex; gap: 18px; padding-bottom: 18px; } .ds-path li:last-child { padding-bottom: 0; } .ds-dot { flex: none; width: 14px; height: 14px; margin-top: 5px; border-radius: 50%; background: var(--bg, #0c0c0d); border: 2px solid var(--accent, #ffc83d); position: relative; z-index: 1; } .ds-dot-end { background: var(--accent, #ffc83d); } .ds-path p { margin: 2px 0 0; color: var(--muted, #a3a3a9); font-size: 14.5px; line-height: 1.5; } .ds-path .ds-pt { margin: 0; color: var(--fg, #f3f3f2); font-weight: 700; font-size: 16px; } .ds-path code { display: inline-block; margin-top: 8px; padding: 4px 9px; font-family: var(--mono, 'JetBrains Mono', ui-monospace, monospace); font-size: 12px; color: var(--ok, #3ddc84); background: rgba(0,0,0,.35); border: 1px solid var(--line, #262629); border-radius: 7px; }"
+    },
+    {
+      "name": "Service Icon Tile",
+      "kind": "custom",
+      "refersTo": "icon-tile",
+      "description": "Yellow-wash tile holding a line icon, one per service row.",
+      "html": "<svg class=\"ds-icon-tile\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 9h18M7 6.5h.01M10 6.5h.01\"/></svg>",
+      "css": ".ds-icon-tile { width: 44px; height: 44px; padding: 10px; border-radius: 12px; background: rgba(255,200,61,.1); border: 1px solid rgba(255,200,61,.28); fill: none; stroke: var(--accent, #ffc83d); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lit Path",
+    "overview": "A near-black workshop with one lamp on. Everything sits on a dark, faintly cool ground in hairline-bordered panels, and a single warm yellow marks what to do next and which way the work runs: the primary action, the chosen door, the line that traces interface to API to cloud to search. The yellow is the only voice that raises itself; everything else stays in greys and lets real stack names, real employers and real commands carry the page.\n\nDensity is calm and editorial rather than dashboard-tight: one idea per section, generous 72px section rhythm, left-aligned headings, body copy held to readable measures (34 to 40em). Structure comes from hairlines and rows (service rows, experience rows, FAQ rows) more than from boxed cards; cards appear where an item is a separate thing you can open. Depth is a warm amber tint rather than lift: the few panels that matter most get a gradient that starts in dark amber and fades into the panel grey.\n\nMotion is short and purposeful: the hero copy and the path steps rise in once, the path line draws itself, hover lifts a card or button by one to three pixels and nudges its arrow. Nothing loops.",
+    "keyCharacteristics": [
+      "Near-black ground, grey panels, hairline borders; one warm yellow accent.",
+      "Yellow means action or the selected path, never decoration.",
+      "Rows and hairlines before boxes; cards only for discrete, linkable items.",
+      "Featured panels warm up with an amber-to-panel gradient instead of shadows.",
+      "Inter for everything readable; JetBrains Mono only for real commands.",
+      "Line icons drawn as inline SVG at 2px stroke, rounded caps."
+    ],
+    "rules": [
+      {
+        "name": "The One Lamp Rule",
+        "body": "Yellow is the only accent. It marks the next action or the chosen path; if an element is yellow, a visitor should be able to say what it leads to.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink-On-Lamp Rule",
+        "body": "Text on a yellow fill is always accent-ink, never white or fg.",
+        "section": "colors"
+      },
+      {
+        "name": "The Real Command Rule",
+        "body": "JetBrains Mono is reserved for strings that are real commands or code (`helm upgrade --install`). Never use mono as a \"techy\" texture for labels or headings.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Case Rule",
+        "body": "Labels, metadata and column titles stay sentence case with no wide tracking; the system has no uppercase label style.",
+        "section": "typography"
+      },
+      {
+        "name": "The Warm Glow Rule",
+        "body": "To make a panel feel important, warm it (a 170deg linear or top-left radial gradient from dark amber, #1d190c to #2a220a, into panel grey, with an amber-edge border), don't lift it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Hover Lift Rule",
+        "body": "Interactive cards and buttons move 1 to 3px up on hover with a brighter border; they never gain a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep yellow (#ffc83d) for actions, links and the selected path; put accent-ink text on every yellow fill.",
+      "**Do** build structure from 1px hairlines (#262629) and rows before reaching for another card.",
+      "**Do** warm a featured panel with the amber-to-panel gradient and an amber-edge (#3a3112) border instead of adding a shadow.",
+      "**Do** draw icons as inline SVG line icons (24px viewBox, 2px stroke, round caps and joins) in currentColor.",
+      "**Do** use JetBrains Mono only for real commands, set in Signal Green inside a dark code chip.",
+      "**Do** show real systems as diagrams built from the system's own boxes and lines when no screenshot exists.",
+      "**Do** keep entrance motion to the hero (rise, path draw) on the shared ease `cubic-bezier(.16, 1, .3, 1)`, and drop all motion under prefers-reduced-motion."
+    ],
+    "donts": [
+      "**Don't** introduce a second accent hue; Signal Green and Coral are status colors, not brand colors.",
+      "**Don't** put white or light text on yellow.",
+      "**Don't** add drop shadows to cards or buttons; the hero path is the only floating object.",
+      "**Don't** use uppercase, widely tracked labels, or category kickers above headings. Only factual metadata (employer, place, dates) may sit above a title, as plain sentence-case muted text.",
+      "**Don't** use mono for labels, headings or decoration.",
+      "**Don't** use emoji or icon fonts as icons."
+    ]
+  }
+}
