@@ -1,0 +1,8 @@
+# Agent tooling and design notes: keep out of the deployed site
+.claude
+.impeccable
+.taste-skill
+.interface-design
+PRODUCT.md
+DESIGN.md
+README.md
