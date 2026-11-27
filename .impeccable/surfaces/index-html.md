@@ -18,5 +18,5 @@ OWN-WORLD: Near-black ground, one warm yellow accent for actions and the selecte
 STORY: Visitor learns what Anas builds and for whom, sees the services with scope and timeline, sees real systems he runs, understands the process, and sends a request. Recruiters jump to experience and the CV.
 FIRST VIEWPORT: Left-aligned H1 with the keyword, plain offer line, "Start a project" primary and "Hiring? Get my CV" secondary, beside a "path" panel tracing interface → API → cloud → search with real stack names.
 FORM: Extension of the established world; offer-led single page.
-seed: none (pinned) "I'll keep the current dark and yellow look unless you'd rather have a fresh one."
+seed: none (pinned) Anas: "do what you see suitable regarding the matter with the new skills", in reply to the offer to keep the dark and yellow look; design delegated, incumbent world kept.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance

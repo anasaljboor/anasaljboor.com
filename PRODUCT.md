@@ -27,12 +27,14 @@ One engineer who covers the whole path, from interface and API to the production
 
 - Static page on Vercel, deployed on push to `main`. No build step.
 - Contact paths: email, LinkedIn, a static contact form (Formspree, form ID pending), WhatsApp and booking link pending.
+- Pricing: no public prices. Every service is "fixed quote after a call" (Anas, 2026-11-27).
+- Regions: all regions, remote (Anas, 2026-11-27).
 - CV at `/cv.pdf`.
 
 ## Capabilities and Constraints
 
 - Real experience (from cv.pdf): DevOps Engineer at KOUN (production Kubernetes on DigitalOcean, Azure DevOps pipelines, Helm, Gateway API, Keycloak, Temporal, RabbitMQ); Orbit Technologies for a SAMA-regulated client on Huawei Cloud (~13 VMs with Terraform and Ansible, GitHub Actions, ELK, Trivy, SAMA CRFR evidence); remote contract for a German start-up (hosting benchmark on Azure, AWS, DigitalOcean); freelance main developer of SecureFlow (FastAPI REST and WebSocket, Android); Orange Jordan cloud intern, 3 summers.
-- Undecided: prices, typical timelines, WhatsApp number, booking link, Formspree form ID, availability dates, whether to add an Arabic version.
+- Undecided: typical timelines (shown on the page as first estimates, pending Anas's confirmation in the PR), WhatsApp number, booking link, Formspree form ID, availability dates, whether to add an Arabic version.
 
 ## Brand Commitments
 
@@ -43,7 +45,8 @@ One engineer who covers the whole path, from interface and API to the production
 
 - Work history and stack in `cv.pdf`.
 - Public repos: StudyWizard, Calmify, SurgiCare, SecureFlow, devops-k8s-jenkins.
-- No client testimonials, client logos, live client site links, metrics or photo yet. Do not invent any of these.
+- Portrait: `img/anas-640.jpg` (+ `.webp`, `anas-240.webp`), cropped from a photo Anas uploaded in the project thread on 2026-11-27 with the words "Use this picture". EXIF and location data stripped.
+- No client testimonials, client logos, live client site links or metrics yet. Do not invent any of these.
 
 ## Product Principles
 
