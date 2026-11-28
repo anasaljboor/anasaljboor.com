@@ -155,7 +155,7 @@ The world explicitly refuses the split hero with a floating gradient card, icon-
 
 **Key Characteristics:**
 - One burnt-orange line (8px bar) with 26px stations: paper fill, 5px ink ring.
-- Ink bands (nav, recruiter section, footer) with sand text; one orange terminus band for contact.
+- Ink bands (nav, CV-page experience band, footer) with sand text; one orange terminus band for contact.
 - Overpass only, weights 400 / 600 / 800, tabular figures throughout.
 - Flat surfaces, 4px corners, structure carried by 2px ink and 1px sand rules.
 - Timetable rows instead of cards.
@@ -176,7 +176,7 @@ A warm sand-and-ink signage palette with a single saturated line colour that car
 - **Ink Soft** (`ink-2`): lede, descriptions and list items under a heading.
 - **Muted Earth** (`muted`): secondary notes, stacks, metadata, column heads.
 - **Sand Rule** (`rule`): 1px row dividers and input borders at rest.
-- **Signage Band** (`band`, same value as ink): nav, recruiter section, footer, the hero portrait caption.
+- **Signage Band** (`band`, same value as ink): nav, CV-page experience band, footer, the hero portrait caption.
 - **Band Sand** (`band-text`), **Band Body** (`band-body`), **Band Muted** (`band-muted`), **Band Rule** (`band-rule`): heading, body, secondary and divider colours on the ink band.
 
 ### Status
@@ -271,7 +271,7 @@ An 8px burnt-orange capsule behind a row (or column) of 26px stations: paper fil
 A service on the vertical line: station at left, then name and summary, a square-bulleted list of what is included, and the typical time in 44px tabular 800 with "Fixed quote after a call" below in muted 14px. A 2px ink head row labels the columns; 1px sand rules divide rows.
 
 ### Signage band
-Full-bleed ink section for recruiters: sand headings, band-body text, columns opened by a sand 2px rule under a 600 15px column title, rows divided by band-rule lines.
+Full-bleed ink section on the separate /cv page (moved off the home page 2026-11-28 so the home page sells services only): sand headings, band-body text, columns opened by a sand 2px rule under a 600 15px column title, rows divided by band-rule lines.
 
 ### FAQ item
 A disclosure opened by a 2px ink rule, 600 20px question, and a 3px orange plus sign that rotates 45 degrees to a cross when open.
