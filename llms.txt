@@ -2,6 +2,8 @@
 
 > Software engineer and DevOps engineer based in Amman, Jordan (time zone UTC+3). Available as a DevOps engineer in Amman, on-site or remote. Builds websites, web apps, mobile apps and cloud setups, and hosts and manages CRMs for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic and English. Also open to full-time full-stack and DevOps roles.
 
+Last updated: 2026-11-28
+
 ## Services (fixed quote after a free call; no public price list)
 
 - Business website: design and build, mobile first, contact form, Google Search Console, sitemap and schema.org set up. Typically 2 to 4 weeks.
@@ -22,10 +24,18 @@
 
 ## Common questions
 
+- Who is Anas Al-Jboor? A software engineer and DevOps engineer based in Amman, Jordan. He works as a DevOps engineer at KOUN, a drone-delivery start-up, and builds websites, web apps, Android and iOS apps and cloud setups for businesses. B.Sc. in Computer Science, German Jordanian University. Works in Arabic and English.
 - Is Anas Al-Jboor a DevOps engineer in Amman? Yes. He works in Amman, Jordan as a DevOps engineer at KOUN and Orbit Technologies, running production Kubernetes with Helm and Azure DevOps pipelines, and Terraform and Ansible environments for a SAMA-regulated client. He takes DevOps projects on-site in Amman or remote; most take 1 to 4 weeks.
 - Does he work with clients outside Jordan? Yes, anywhere remote, most often in Jordan, the Gulf and Europe, in Arabic or English.
 - How much does a project cost? There is no public price list. After a free 20-minute call he sends a written proposal with one fixed price.
 - How to start: book a call at https://cal.com/anas-aljboor/20-minute-project-call, use the form at https://anasaljboor.com/#contact, or WhatsApp +962 77 777 1444.
+
+## Own projects
+
+- Calmify: reads heart-rate variability in real time and reacts to stress, across a Kotlin Multiplatform app, a Python backend and a Raspberry Pi. Team project at TH Brandenburg.
+- SurgiCare: Android app that follows patients after surgery, from ICU to home, with live vitals, trend charts, medication reminders, roles and chat. Bachelor's thesis.
+- Kubernetes CI/CD pipeline: Jenkins builds a Docker image, pushes it to Docker Hub and deploys it to a multi-node Kubernetes cluster on RHEL.
+- SolrCloud on ECS Fargate: SolrCloud in Terraform, with ZooKeeper, a load balancer, ECR and EFS.
 
 ## Links
 
@@ -33,4 +43,5 @@
 - [CV (PDF)](https://anasaljboor.com/cv.pdf)
 - [GitHub](https://github.com/anasaljboor)
 - [LinkedIn](https://www.linkedin.com/in/anas-al-jboor)
+- [Google Business Profile](https://share.google/XArdooYbnljdMGCkJ)
 - Contact: anas.ahmadaljboor@gmail.com, WhatsApp +962 77 777 1444 (https://wa.me/962777771444)
