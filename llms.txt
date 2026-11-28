@@ -1,6 +1,6 @@
 # Anas Al-Jboor
 
-> Software engineer and DevOps engineer based in Amman, Jordan. Builds websites, web apps, mobile apps and cloud setups, and hosts and manages CRMs for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic and English. Also open to full-time full-stack and DevOps roles.
+> Software engineer and DevOps engineer based in Amman, Jordan (time zone UTC+3). Available as a DevOps engineer in Amman, on-site or remote. Builds websites, web apps, mobile apps and cloud setups, and hosts and manages CRMs for businesses, and works remotely with clients anywhere, most often in Jordan, the Gulf and Europe. Languages: Arabic and English. Also open to full-time full-stack and DevOps roles.
 
 ## Services (fixed quote after a free call; no public price list)
 
@@ -19,6 +19,13 @@
 - Freelance Full-Stack Developer, 2024 to 2025: main developer of SecureFlow (FastAPI, REST and WebSocket, Android).
 - Cloud Engineering Intern, Orange Jordan, 3 summers, 2022 to 2024.
 - B.Sc. Computer Science, German Jordanian University, 2021 to 2025.
+
+## Common questions
+
+- Is Anas Al-Jboor a DevOps engineer in Amman? Yes. He works in Amman, Jordan as a DevOps engineer at KOUN and Orbit Technologies, running production Kubernetes with Helm and Azure DevOps pipelines, and Terraform and Ansible environments for a SAMA-regulated client. He takes DevOps projects on-site in Amman or remote; most take 1 to 4 weeks.
+- Does he work with clients outside Jordan? Yes, anywhere remote, most often in Jordan, the Gulf and Europe, in Arabic or English.
+- How much does a project cost? There is no public price list. After a free 20-minute call he sends a written proposal with one fixed price.
+- How to start: book a call at https://cal.com/anas-aljboor/20-minute-project-call, use the form at https://anasaljboor.com/#contact, or WhatsApp +962 77 777 1444.
 
 ## Links
 
