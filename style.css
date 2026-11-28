@@ -74,6 +74,10 @@ img { display: block; max-width: 100%; height: auto; }
 .links { display: flex; gap: 26px; }
 .links a { color: var(--band-muted); text-decoration: none; font-size: 15px; font-weight: 600; }
 .links a:hover { color: var(--band-text); }
+.nav-ctas { display: flex; gap: 10px; }
+.nav .btn.ghost { color: var(--band-text); border-color: var(--band-muted); }
+.nav .btn.ghost:hover { background: var(--band-text); border-color: var(--band-text); color: var(--ink); }
+.nav :focus-visible { outline-color: var(--band-text); }
 
 /* ── sections ── */
 main > section { padding: 96px 0; }
@@ -287,6 +291,9 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
   .edu { gap: 28px; }
   .form { padding: 22px 18px; }
   .foot-links { margin-left: 0; }
+  .nav-inner { gap: 12px; }
+  .brand { font-size: 18px; }
+  .nav .btn.small { padding: 8px 12px; }
 }
 @media (max-width: 920px) { .svc-time .t-word { font-size: 20px; } }
 .mobile-cta { display: none; }

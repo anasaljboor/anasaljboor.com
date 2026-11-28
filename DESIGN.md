@@ -253,7 +253,7 @@ Solid, plain and signage-like: a filled rectangle with a label and an optional 1
 600 weight, 2px burnt-orange underline offset 5px; hover turns the text orange. Inline links in case stacks and FAQ answers use the same underline. Contact channels on the orange band use a 1px white underline that thickens to 2px on hover.
 
 ### Navigation
-A sticky 60px ink band. Text-only wordmark "Anas Al-Jboor" (Overpass 800, 20px, -0.02em) at left, sand-muted 600 15px links that brighten to sand on hover, small primary CTA at right. Below 920px only brand and CTA remain.
+A sticky 60px ink band. Text-only wordmark "Anas Al-Jboor" (Overpass 800, 20px, -0.02em) at left, sand-muted 600 15px links that brighten to sand on hover, an outlined "CV" button and the small primary CTA at right. Below 920px only brand and CTA remain.
 
 ### Inputs / Fields
 - **Style:** sand fill, 2px sand-rule border, 4px corners, 12px 14px padding, 400 16px text; label above in 600 15px with optional hints in muted 400.
