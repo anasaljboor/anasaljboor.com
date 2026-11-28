@@ -235,7 +235,7 @@ Flat. There are no drop shadows and no blur. Depth is conveyed by ground changes
 
 ## Shapes
 
-Square-ish 4px corners on buttons, inputs, the form card, the portrait and its caption (the photo rounds only on the top, the caption only on the bottom, so the two read as one sign). Circles are reserved for stations and the AA monogram. The line bar is a capsule (radius equal to its 8px thickness). List bullets are 7px solid ink squares. Rules come in two weights: 2px ink opens a group (timetable head, case, FAQ item, band column title), 1px sand divides rows.
+Square-ish 4px corners on buttons, inputs, the form card, the portrait and its caption (the photo rounds only on the top, the caption only on the bottom, so the two read as one sign). Circles are reserved for stations. The logo is text only; the favicon is sand "AA" on an ink square with an orange underline bar. The line bar is a capsule (radius equal to its 8px thickness). List bullets are 7px solid ink squares. Rules come in two weights: 2px ink opens a group (timetable head, case, FAQ item, band column title), 1px sand divides rows.
 
 ## Components
 
@@ -283,7 +283,7 @@ A disclosure opened by a 2px ink rule, 600 20px question, and a 3px orange plus 
 - **Do** draw sequences (scope, process, services) as stations on the line, horizontal above 920px and vertical below.
 - **Do** set every word in Overpass at 400, 600 or 800, with tabular figures.
 - **Do** separate content with 2px ink rules for groups and 1px sand rules for rows, and change ground only with a full-bleed band.
-- **Do** keep corners at 4px and reserve circles for stations and the AA favicon.
+- **Do** keep corners at 4px and reserve circles for stations.
 - **Do** use a 3px burnt-orange focus outline offset 3px (ink on the orange band, sand on the ink band).
 
 ### Don't:

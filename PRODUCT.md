@@ -41,7 +41,7 @@ One engineer who covers the whole path, from interface and API to the production
 
 ## Brand Commitments
 
-- Name: Anas Al-Jboor. Logo is the name as text only (Overpass 800); the orange "AA" circle is the favicon only (2026-11-28).
+- Name: Anas Al-Jboor. Logo is the name as text only (Overpass 800); favicon is a text-style "AA" (sand letters on an ink square with an orange underline bar, 2026-11-28).
 - Title, used everywhere: "Software engineer and DevOps engineer" (Anas, 2026-11-27).
 - Voice: first person, plain, specific, no hype.
 
