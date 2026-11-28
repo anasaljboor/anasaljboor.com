@@ -47,20 +47,30 @@ img { display: block; max-width: 100%; height: auto; }
 /* ── buttons and links ── */
 .btn {
   display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 20px; border: 2px solid var(--line); border-radius: var(--r);
+  padding: 16.5px 20px 11.5px; border: 2px solid var(--line); border-radius: var(--r);
   background: var(--line); color: var(--on-line);
   font: 600 16px/1.2 var(--sans); text-decoration: none; cursor: pointer;
   transition: background-color .18s, border-color .18s, transform .18s var(--ease);
 }
 .btn:hover { background: var(--line-hi); border-color: var(--line-hi); }
 .btn:active { transform: translateY(1px); }
-.btn.small { padding: 9px 14px; font-size: 15px; }
+.btn.small { padding: 11.5px 14px 6.5px; font-size: 15px; }
 .btn.ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
 .btn.ghost:hover { background: var(--ink); color: var(--band-text); }
 .btn.ink { background: var(--ink); border-color: var(--ink); color: var(--band-text); }
 .btn.ink:hover { background: #000; border-color: #000; }
 .btn:disabled { opacity: .6; cursor: progress; }
 .btn.primary { /* 404 page */ }
+/* Overpass sits high in its line box, so buttons carry 2.5px more padding on
+   top than below. Nav text is trimmed to cap height and baseline so it centres
+   in the bar (older browsers get a nudge instead). */
+@supports (text-box: trim-both cap alphabetic) {
+  .brand, .links a, .nav-link { text-box: trim-both cap alphabetic; }
+}
+@supports not (text-box: trim-both cap alphabetic) {
+  .brand { padding-top: 5px; }
+  .links a, .nav-link { padding-top: 6px; }
+}
 .text-link {
   display: inline-flex; align-items: center; gap: 8px; font-weight: 600;
   text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 5px; text-decoration-color: var(--line);
@@ -74,9 +84,13 @@ img { display: block; max-width: 100%; height: auto; }
 .links { display: flex; gap: 26px; }
 .links a { color: var(--band-muted); text-decoration: none; font-size: 15px; font-weight: 600; }
 .links a:hover { color: var(--band-text); }
-.nav-ctas { display: flex; gap: 10px; }
-.nav .btn.ghost { color: var(--band-text); border-color: var(--band-muted); }
-.nav .btn.ghost:hover { background: var(--band-text); border-color: var(--band-text); color: var(--ink); }
+.links { margin-right: 16px; }
+.nav-ctas { display: flex; align-items: center; gap: 22px; }
+.nav-link {
+  color: var(--band-text); font-size: 15px; font-weight: 600;
+  text-decoration: underline; text-decoration-color: var(--line); text-decoration-thickness: 2px; text-underline-offset: 6px;
+}
+.nav-link:hover { text-decoration-color: var(--band-text); }
 .nav :focus-visible { outline-color: var(--band-text); }
 
 /* ── sections ── */
@@ -89,7 +103,7 @@ h2 { font-size: clamp(34px, 4.2vw, 54px); line-height: 1.02; font-weight: 800; l
 /* ── hero ── */
 .hero { padding: 64px 0 88px; }
 .hero-top { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 56px; align-items: end; }
-.hero h1 { font-size: clamp(46px, 6.4vw, 92px); line-height: .96; font-weight: 800; letter-spacing: -0.035em; max-width: 11.5em; }
+.hero h1 { font-size: clamp(38px, 4.6vw, 62px); line-height: 1.02; font-weight: 800; letter-spacing: -0.03em; max-width: 12em; }
 .lede { margin-top: 28px; font-size: clamp(19px, 1.6vw, 22px); line-height: 1.45; color: var(--ink-2); max-width: 34em; }
 .portrait img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; border-radius: var(--r) var(--r) 0 0; }
 .sign { display: grid; gap: 2px; padding: 12px 14px; background: var(--band); color: var(--band-text); border-radius: 0 0 var(--r) var(--r); font-size: 14px; }
@@ -300,7 +314,8 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
   .foot-links { margin-left: 0; }
   .nav-inner { gap: 12px; }
   .brand { font-size: 18px; }
-  .nav .btn.small { padding: 8px 12px; }
+  .nav .btn.small { padding-left: 12px; padding-right: 12px; }
+  .nav-ctas { gap: 16px; }
 }
 @media (max-width: 920px) { .svc-time .t-word { font-size: 20px; } }
 .mobile-cta { display: none; }

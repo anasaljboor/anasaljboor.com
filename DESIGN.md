@@ -21,7 +21,7 @@ colors:
 typography:
   display:
     fontFamily: "Overpass, Helvetica Neue, Arial, sans-serif"
-    fontSize: "clamp(46px, 6.4vw, 92px)"
+    fontSize: "clamp(38px, 4.6vw, 62px)"
     fontWeight: 800
     lineHeight: 0.96
     letterSpacing: "-0.035em"
@@ -88,7 +88,7 @@ components:
     textColor: "{colors.on-line}"
     typography: "{typography.label}"
     rounded: "{rounded.sm}"
-    padding: "14px 20px"
+    padding: "16.5px 20px 11.5px"
   button-primary-hover:
     backgroundColor: "{colors.line-hi}"
     textColor: "{colors.on-line}"
@@ -96,12 +96,12 @@ components:
     backgroundColor: "{colors.line}"
     textColor: "{colors.on-line}"
     rounded: "{rounded.sm}"
-    padding: "9px 14px"
+    padding: "11.5px 14px 6.5px"
   button-ghost:
     backgroundColor: "transparent"
     textColor: "{colors.ink}"
     rounded: "{rounded.sm}"
-    padding: "14px 20px"
+    padding: "16.5px 20px 11.5px"
   button-ghost-hover:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.band-text}"
@@ -109,7 +109,7 @@ components:
     backgroundColor: "{colors.ink}"
     textColor: "{colors.band-text}"
     rounded: "{rounded.sm}"
-    padding: "14px 20px"
+    padding: "16.5px 20px 11.5px"
   nav-band:
     backgroundColor: "{colors.band}"
     textColor: "{colors.band-text}"
@@ -196,7 +196,7 @@ A warm sand-and-ink signage palette with a single saturated line colour that car
 **Character:** Highway-sign lettering used for every word, so the page reads as one piece of signage. Hierarchy comes from size and the jump between 400, 600 and 800, never from a second family.
 
 ### Hierarchy
-- **Display** (800, clamp(46px, 6.4vw, 92px), 0.96, -0.035em): the hero H1 only, held to about 11.5em wide.
+- **Display** (800, clamp(38px, 4.6vw, 62px), 1.02, -0.03em): the hero H1 only, held to about 12em wide. Toned down 2026-11-28 so it no longer outweighs the page.
 - **Display Terminus** (800, clamp(44px, 6vw, 80px), 0.96): the contact heading and the 404 heading.
 - **Headline** (800, clamp(34px, 4.2vw, 54px), 1.02, -0.03em): section H2s. A 30px 800 sub-head splits a section in two.
 - **Figure** (800, 44px, 1, tabular): typical times in the timetable; 32px below 920px.
@@ -253,7 +253,7 @@ Solid, plain and signage-like: a filled rectangle with a label and an optional 1
 600 weight, 2px burnt-orange underline offset 5px; hover turns the text orange. Inline links in case stacks and FAQ answers use the same underline. Contact channels on the orange band use a 1px white underline that thickens to 2px on hover.
 
 ### Navigation
-A sticky 60px ink band. Text-only wordmark "Anas Al-Jboor" (Overpass 800, 20px, -0.02em) at left, sand-muted 600 15px links that brighten to sand on hover, an outlined "CV" button and the small primary CTA at right. Below 920px only brand and CTA remain.
+A sticky 60px ink band. Text-only wordmark "Anas Al-Jboor" (Overpass 800, 20px, -0.02em) at left, sand-muted 600 15px links that brighten to sand on hover, a plain underlined "CV" link (orange underline, no border) set close to the small primary CTA at right. Nav text is trimmed to cap height (text-box) so it centres in the bar; buttons carry 2.5px more top than bottom padding because Overpass sits high in its line box. Below 920px only brand and CTA remain.
 
 ### Inputs / Fields
 - **Style:** sand fill, 2px sand-rule border, 4px corners, 12px 14px padding, 400 16px text; label above in 600 15px with optional hints in muted 400.
