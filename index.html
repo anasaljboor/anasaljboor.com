@@ -24,6 +24,7 @@
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#f6f2ea" />
   <link rel="canonical" href="https://anasaljboor.com/" />
+  <link rel="alternate" type="text/markdown" title="Summary for AI assistants" href="/llms.txt" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23c2410c'/><text x='16' y='21' text-anchor='middle' font-family='Arial' font-weight='700' font-size='13' fill='%23ffffff'>AA</text></svg>" />
   <link rel="icon" href="/favicon.ico?v=3" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=3" />
@@ -51,9 +52,9 @@
           "occupationLocation": { "@type": "City", "name": "Amman, Jordan" },
           "skills": "Kubernetes, Helm, CI/CD, Terraform, Ansible, Docker, GitHub Actions, Azure DevOps"
         },
-        "workLocation": { "@type": "Place", "name": "Amman, Jordan", "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressCountry": "JO" } },
+        "workLocation": { "@type": "Place", "name": "Amman, Jordan", "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressRegion": "Amman Governorate", "addressCountry": "JO" } },
         "worksFor": { "@type": "Organization", "name": "KOUN" },
-        "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressCountry": "JO" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressRegion": "Amman Governorate", "addressCountry": "JO" },
         "alumniOf": { "@type": "CollegeOrUniversity", "name": "German Jordanian University" },
         "knowsLanguage": ["ar", "en"],
         "knowsAbout": ["DevOps", "Web development", "Mobile app development", "Kotlin Multiplatform", "Compose Multiplatform", "FastAPI", "Kubernetes", "CI/CD", "Terraform", "Technical SEO", "Cloud infrastructure"],
@@ -71,9 +72,9 @@
         "email": "anas.ahmadaljboor@gmail.com",
         "telephone": "+962777771444",
         "founder": { "@id": "https://anasaljboor.com/#person" },
-        "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressCountry": "JO" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Amman", "addressRegion": "Amman Governorate", "addressCountry": "JO" },
         "areaServed": [
-          { "@type": "City", "name": "Amman" },
+          { "@type": "City", "name": "Amman", "containedInPlace": { "@type": "Country", "name": "Jordan" } },
           { "@type": "Place", "name": "Worldwide (remote)" },
           { "@type": "Country", "name": "Jordan" },
           { "@type": "Country", "name": "Saudi Arabia" },
@@ -82,6 +83,10 @@
           { "@type": "Country", "name": "Germany" }
         ],
         "availableLanguage": ["Arabic", "English"],
+        "sameAs": [
+          "https://github.com/anasaljboor",
+          "https://www.linkedin.com/in/anas-al-jboor"
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Services",
