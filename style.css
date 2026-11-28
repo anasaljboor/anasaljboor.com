@@ -70,14 +70,14 @@ img { display: block; max-width: 100%; height: auto; }
 /* ── nav: the station sign ── */
 .nav { position: sticky; top: 0; z-index: 40; background: var(--band); color: var(--band-text); }
 .nav-inner { display: flex; align-items: center; gap: 28px; height: 60px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; text-decoration: none; margin-right: auto; }
-.mark {
-  display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%;
-  background: var(--line); color: var(--on-line); font-size: 12px; font-weight: 800; letter-spacing: .02em;
-}
+.brand { font-weight: 800; font-size: 20px; letter-spacing: -0.02em; text-decoration: none; margin-right: auto; }
 .links { display: flex; gap: 26px; }
 .links a { color: var(--band-muted); text-decoration: none; font-size: 15px; font-weight: 600; }
 .links a:hover { color: var(--band-text); }
+.nav-ctas { display: flex; gap: 10px; }
+.nav .btn.ghost { color: var(--band-text); border-color: var(--band-muted); }
+.nav .btn.ghost:hover { background: var(--band-text); border-color: var(--band-text); color: var(--ink); }
+.nav :focus-visible { outline-color: var(--band-text); }
 
 /* ── sections ── */
 main > section { padding: 96px 0; }
@@ -177,6 +177,13 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
 .skills dd { margin: 0; font-size: 15.5px; color: #e4dccd; }
 .edu { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; margin-top: 40px; }
 .edu p { margin-top: 12px; font-size: 15.5px; color: #e4dccd; }
+
+/* ── cv page ── */
+.cv-intro { padding: 72px 0 64px; }
+.cv-intro h1 { font-size: clamp(44px, 6vw, 80px); line-height: .96; font-weight: 800; letter-spacing: -0.03em; }
+.cv-intro .about-head { margin-bottom: 0; }
+#projects .sub-head { margin-top: 0; }
+.sep { margin: 0 12px; color: var(--muted); }
 
 /* ── faq ── */
 .faq-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 56px; }
@@ -291,6 +298,9 @@ ol.line-h.steps::before { right: calc((100% - 3 * 28px) / 4 - var(--dot)); }
   .edu { gap: 28px; }
   .form { padding: 22px 18px; }
   .foot-links { margin-left: 0; }
+  .nav-inner { gap: 12px; }
+  .brand { font-size: 18px; }
+  .nav .btn.small { padding: 8px 12px; }
 }
 @media (max-width: 920px) { .svc-time .t-word { font-size: 20px; } }
 .mobile-cta { display: none; }

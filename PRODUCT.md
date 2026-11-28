@@ -33,7 +33,7 @@ One engineer who covers the whole path, from interface and API to the production
 
 ## Capabilities and Constraints
 
-- Real experience (from cv.pdf): DevOps Engineer at KOUN (production Kubernetes on DigitalOcean, Azure DevOps pipelines, Helm, Gateway API, Keycloak, Temporal, RabbitMQ); Orbit Technologies for a SAMA-regulated client on Huawei Cloud (~13 VMs with Terraform and Ansible, GitHub Actions, ELK, Trivy, SAMA CRFR evidence); remote contract for a German start-up (hosting benchmark on Azure, AWS, DigitalOcean); freelance main developer of SecureFlow (FastAPI REST and WebSocket, Android); Orange Jordan cloud intern, 3 summers.
+- Real experience (from cv.pdf; KOUN shown as past experience dated 2026 with no 'present', per Anas 2026-11-28): DevOps Engineer at KOUN (production Kubernetes on DigitalOcean, Azure DevOps pipelines, Helm, Gateway API, Keycloak, Temporal, RabbitMQ); Orbit Technologies for a SAMA-regulated client on Huawei Cloud (~13 VMs with Terraform and Ansible, GitHub Actions, ELK, Trivy, SAMA CRFR evidence); remote contract for a German start-up (hosting benchmark on Azure, AWS, DigitalOcean); freelance main developer of SecureFlow (FastAPI REST and WebSocket, Android); Orange Jordan cloud intern, 3 summers.
 - Mobile: Android and iOS apps with Kotlin Multiplatform and Compose Multiplatform. Early mobile work was his own projects, never published (no store links to show).
 - Confirmed by Anas (2026-11-27): typical times (website 2-4 weeks, web app 6-12, mobile app 4-8, DevOps 1-4, SEO fix about 1 week) and the process (free 20-minute call, proposal within a few days, weekly demos).
 - Contact: WhatsApp +962777771444; Formspree form moedzqpl (to Anas's Gmail).
@@ -41,7 +41,7 @@ One engineer who covers the whole path, from interface and API to the production
 
 ## Brand Commitments
 
-- Name: Anas Al-Jboor. Monogram "AA" in a burnt-orange circle (also the favicon).
+- Name: Anas Al-Jboor. Logo is the name as text only (Overpass 800); favicon is a text-style "AA" (sand letters on an ink square with an orange underline bar, 2026-11-28).
 - Title, used everywhere: "Software engineer and DevOps engineer" (Anas, 2026-11-27).
 - Voice: first person, plain, specific, no hype.
 
